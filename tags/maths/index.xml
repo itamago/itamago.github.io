@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maths on itamago</title>
+    <link>https://www.itamago.com/tags/maths/index.xml</link>
+    <description>Recent content in Maths on itamago</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
+    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
+    <copyright>Pacôme DANHIEZ</copyright>
+    <atom:link href="https://www.itamago.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mathematiques</title>
+      <link>https://www.itamago.com/mathematiques/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/mathematiques/</guid>
+      <description>
+
+&lt;p&gt;Ci-dessous, vous trouverez des documents liés aux mathématiques.&lt;/p&gt;
+
+&lt;h2 id=&#34;cours-de-maths&#34;&gt;Cours de maths&lt;/h2&gt;
+
+&lt;p&gt;Voici des résumés de cours de mathématiques, niveau prépa.
+Ces résumés sont &lt;em&gt;courts&lt;/em&gt; et démystifieront la plupart des cours indigestes qu&amp;rsquo;on peut ingurgiter en classe préparatoire ou license de maths !&lt;/p&gt;
+
+&lt;p&gt;Cliquez individuellement sur les liens pour visualiser les fichiers PDF dans votre navigateur, ou bien téléchargez tous les cours en cliquant sur le bouton en bas de page.
+{: .notice}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Groupes.pdf&#34;&gt;Groupes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Anneaux.pdf&#34;&gt;Anneaux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/CalculMatriciel.pdf&#34;&gt;Calcul Matriciel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Compacite.pdf&#34;&gt;Compacité&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Completude.pdf&#34;&gt;Complétude&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Dualite.pdf&#34;&gt;Dualité&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ConnexiteParArcs.pdf&#34;&gt;Connexité Par Arcs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EndomEuclidienHermitien.pdf&#34;&gt;Endomorphisme Euclidien et Hermitien&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesPrehilbertiensComplexes.pdf&#34;&gt;Espaces Préhilbertiens Complexes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesPrehilbertiensReels.pdf&#34;&gt;Espaces Préhilbertiens Réels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesVectoriels.pdf&#34;&gt;Espaces Vectoriels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Evn.pdf&#34;&gt;Espaces Vectoriels Normés&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Topologie_evn.pdf&#34;&gt;Topologie - Espace Vectoriel Normé&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/formesQuadratiques.pdf&#34;&gt;Formes Quadratiques&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndom.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndomAutoadjoint.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme Autoadjoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndomDimensionFinie.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme en Dimension Finie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Sobolev.pdf&#34;&gt;Espace de Sobolev en Dimension 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ContinuiteLimite.pdf&#34;&gt;Continuité et Limite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ConvergenceUniforme.pdf&#34;&gt;Convergence Uniforme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionReelleVarReelle.pdf&#34;&gt;Fonction Réelle de Variable Réelle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionsIntegrales.pdf&#34;&gt;Fonctions Intégrales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/fonctionsPlusieursVariables.pdf&#34;&gt;Fonctions de Plusieurs Variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionVectorielleVarReelle.pdf&#34;&gt;Fonction Vectorielle à Variable Réelle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/IntegralesSurIntervalle.pdf&#34;&gt;Intégrales Sur un Intervalle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Lebesgue.pdf&#34;&gt;Espaces de Lebesgue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Probas.pdf&#34;&gt;Probabilités&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SuitesReelles.pdf&#34;&gt;Suites Réelles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesGeneralites.pdf&#34;&gt;Séries - Généralites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesEntieres.pdf&#34;&gt;Séries Entières&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesFonctions.pdf&#34;&gt;Séries de Fonctions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesFourier.pdf&#34;&gt;Séries de Fourier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesTermesPositifs.pdf&#34;&gt;Séries à Termes Positifs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesTermesBanach.pdf&#34;&gt;Séries à Termes dans un Espace de Banach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SolutionVariationnelle.pdf&#34;&gt;Solution Variationnelle des Problèmes aux Limites Elliptiques&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SuitesFonctions_IntegralesAvecParametre.pdf&#34;&gt;Intégrales et Suites de Fonctions - Intégrales Avec Parametre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/TheorieMesure.pdf&#34;&gt;Theorie de la Mesure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;div markdown=&#34;0&#34; style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/cours_math.zip&#34; class=&#34;btn btn-info&#34;&gt;Télécharger tous les cours (22 MB)&lt;/a&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

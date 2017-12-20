@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Regressions de GUI sur OSX &#8211; itamago</title>
+<meta name="description" content="">
+
+    
+
+<meta name="keywords" content="code">
+
+
+
+<meta name="twitter:title" content="Regressions de GUI sur OSX">
+<meta name="twitter:description" content="blog">
+
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Regressions de GUI sur OSX">
+<meta property="og:description" content="blog">
+<meta property="og:url" content="https://www.itamago.com/post/2015-12-05-gui-cpp/">
+<meta property="og:site_name" content="itamago">
+
+
+
+  <meta property="og:updated_time" content="2015-12-05T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+<link rel="canonical" href="https://www.itamago.com/post/2015-12-05-gui-cpp/">
+
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="generator" content="Hugo 0.19" />
+
+<script src="/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<link rel="shortcut icon" href="/favicon.png">
+
+
+</head>
+
+
+<link rel="stylesheet" href="/css/highlight.min.css">
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<body id="post" class="feature">
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">Accueil</a></li>
+		<li>
+			<a href="#">À propos</a>
+			<ul class="dl-submenu">
+			
+				<li style="text-align: center">
+					
+					<img src="/images/pacome.jpg" alt="Pacôme Danhiez's photo" class="author-photo">
+					
+					<h4>Pacôme Danhiez</h4>
+					<p>Codeur de Paris</p>
+				</li>
+				<li style="text-align: center"><a href="/about/"><span class="btn btn-inverse">En savoir plus</span></a></li>
+				<li>
+					<a href="mailto:pacome@itamago.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				<li>
+					<a href="https://facebook.com/pacome.danhiez"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+			
+			</ul>
+		</li>
+		<li><a href="/tags/">All Tags</a></li>
+
+		
+	    <li><a href="/mathematiques/" >Mathématiques</a></li>
+	  
+	    <li><a href="/kung-fu/" >Kung Fu</a></li>
+	  
+	    <li><a href="/politique/" >Politique</a></li>
+	  
+	</ul>
+</nav>
+
+<div class="entry-header">
+
+  
+    <div class="entry-image">
+      <img src="/images/xcode-programming.jpg" alt="Regressions de GUI sur OSX">
+    </div>
+  
+
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/post/2015-12-05-gui-cpp/" rel="bookmark" title="Regressions de GUI sur OSX">Regressions de GUI sur OSX</a></h1>
+        
+         
+        <h2><span class="entry-date date published"><time datetime="2015-12-05 00:00:00 &#43;0000 &#43;0000">2015-12-05</time></span></h2>
+        
+      <p class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Lecture ~3 minutes
+    </p>
+      </div>
+    </header>
+    <div class="entry-content">
+      
+
+<p>Plus j&rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.<br />
+Les concepts des GUI native d&rsquo;OSX sont véritablement étranges. On s&rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&rsquo;univers Apple et pas très bien testé..</p>
+
+<h2 id="régression-de-gui">Régression de GUI</h2>
+
+<p>Depuis 3 jours je bloque sur une regression des NSScrollView.<br />
+Après avoir épluché les forums officiels d&rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.</p>
+
+<p>Sans entrer dans le détail, le problème est simple : je veux juste faire mon rendu custom dans une NSView et pouvoir la scroller !<br />
+Tout fonctionnait parfaitement avec <strong>xcode 6</strong>, et depuis <strong>xcode 7</strong> ça déconne totalement.</p>
+
+<h2 id="gui-qui-fonctionne">GUI qui fonctionne</h2>
+
+<p>Voici un rendu qui fonctionne : l&rsquo;éditeur de TimeLines.<br />
+Les scrollbars fonctionnent, je peux me déplacer à ma guise.
+<figure>
+    <a href="/images/easesdk/Capture_Editor_TimeLines.jpg"><img src="/images/easesdk/Capture_Editor_TimeLines.jpg" alt=""></a>
+</figure></p>
+
+<h2 id="gui-qui-déconne">GUI qui déconne</h2>
+
+<p>Et voici un rendu qui ne fonctionne plus du tout : l&rsquo;éditeur de passes&hellip;<br />
+Impossible de faire fonctionner ces foutues scrollbars : elles n&rsquo;apparaissent pas.<br />
+Pourtant tout fonctionnait avec <strong>xcode 6</strong> !
+<figure>
+    <a href="/images/easesdk/Capture_Editor_Chart.jpg"><img src="/images/easesdk/Capture_Editor_Chart.jpg" alt=""></a>
+</figure></p>
+
+<p>C&rsquo;est quand même incroyable de devoir me taper le debug des produits Apple.<br />
+C&rsquo;est la société la plus riche au monde et elle n&rsquo;est pas capable de s&rsquo;offrir des tests de non-régression digne de ce nom&hellip;</p>
+
+<h2 id="utiliser-un-système-de-gui-alternatif">Utiliser un système de GUI alternatif ?</h2>
+
+<p>Donc ce soir j&rsquo;ai passé un peu de temps à examiner les GUI alternatives.</p>
+
+<p>D&rsquo;abord, j&rsquo;ai été séduit par les GUI de <a href="http://www.blender.org/">Blender</a>. C&rsquo;est très joli, codé en C++, mais impossible de séparer le code de l&rsquo;éditeur.</p>
+
+<p>Ensuite, j&rsquo;ai trouvé d&rsquo;autres GUI cross-platform qui semblent mûres aujourd&rsquo;hui :</p>
+
+<ul>
+<li><a href="http://www.qt.io/">Qt</a><br />
+Cette librairie vieille de 20 ans s&rsquo;est transformée à plusieurs reprises et a vraiment bien évolué. Elle est flexible, puissante, et elle tourne sur toutes les plateformes !<br />
+Mais c&rsquo;est une telle usine à gaz que les samples-codes m&rsquo;ont vite fait fuir. Pas le temps d&rsquo;apprendre à me servir d&rsquo;un engine complet pour faire des GUIs.</li>
+<li><a href="https://github.com/wjakob/nanogui">NanoGUI</a><br />
+Cette lib se désigne comme <strong><em>Minimalistic GUI library for OpenGL</em></strong>. C&rsquo;est clairement prometeur, et certaines features me plaisent beaucoup telles que le support du C++11, l&rsquo;utilisation de lambdas, et des widgets de tracé de graphes.<br />
+Je vais la tester ce soir.</li>
+<li><a href="https://github.com/sp4cerat/Game-GUI">Game-GUI</a><br />
+<strong>Mon coup de coeur</strong>. Très simple, et réalise la performance d&rsquo;être codé en 2000 lignes de C++.  Elle propose les features classique (skinning, widgets standards, etc), et cela fait d&rsquo;elle un excellente candidate pour intégrer mon moteur en tant que module de GUI pour METAL. Cerise sur le gateau : elle est en licence MIT.</li>
+</ul>
+
+<h2 id="et-finalement">Et finalement&hellip;</h2>
+
+<p>Je vais poursuivre encore un peu avec Cocoa. Je laisse une chance à Apple de se rattrapper avec le mise à jour de xcode qui ne saura tarder.<br />
+Et en attendant, je vais tester NanoGUI et Game-GUI.<br />
+J&rsquo;ai une longue nuit qui s&rsquo;annonce !</p>
+
+      <footer class="entry-meta">
+          
+        <span class="entry-tags"><a href="/tags/#code" title="Pages tagged code" class="tag"><span class="term">code</span></a></span>
+        
+        
+      </footer>
+    </div>
+  </article>
+</div>
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>Copyright<i class="fa fa-fw fa-copyright"></i>2017 Pacôme DANHIEZ </span>
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/js/scripts.min.js"></script>
+
+
+
+</body>
+</html>
+
