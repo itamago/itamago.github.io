@@ -2,14 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bd on itamago</title>
-    <link>https://www.itamago.com/tags/bd/index.xml</link>
+    <link>https://www.itamago.com/tags/bd/</link>
     <description>Recent content in Bd on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <atom:link href="https://www.itamago.com/tags/bd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.itamago.com/tags/bd/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Qui dit Noël, dit BD !</title>
@@ -17,47 +20,10 @@
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-24-noel-bd/</guid>
-      <description>
-
-&lt;p&gt;Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !&lt;/p&gt;
-
-&lt;h2 id=&#34;le-tueur-tomes-11-12-13&#34;&gt;Le Tueur &lt;em&gt;(tomes 11, 12, 13)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.&lt;br /&gt;
-Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.&lt;/p&gt;
-
-&lt;figure class=&#34;third&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-11.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-11.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-12.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-12.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-13.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-13.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;le-grand-mort-tome-6&#34;&gt;Le Grand Mort &lt;em&gt;(tome 6)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Je l&amp;rsquo;attendais depuis un an !&lt;/p&gt;
-
-&lt;p&gt;Pour Noël 2014, j&amp;rsquo;avais offert les cinq premiers tomes à mon père, et je me suis délecté de leur lecture pendant deux après-midi.&lt;/p&gt;
-
-&lt;p&gt;Loisel parvient à nous transporter dans un monde parallèle pendant plusieurs heures.&lt;br /&gt;
-J&amp;rsquo;ai hâte de lire ce dernier tome !&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-grand-mort-tome-6.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-grand-mort-tome-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Petite anecdote&lt;/strong&gt; : Loisel a habité Enghien-les-bains &lt;strong&gt;pendant plus de 15 ans&lt;/strong&gt;, et je l&amp;rsquo;ai su hier seulement ! Je comprends mieux pourquoi la librairie &lt;em&gt;Impressions&lt;/em&gt; avait toujours ses albums en avant-première ;)&lt;/p&gt;
-
-&lt;h2 id=&#34;le-cycle-de-cyann-tome-6&#34;&gt;Le Cycle de Cyann &lt;em&gt;(tome 6)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Une série dont les épisodes sortent au compte-goutte.&lt;br /&gt;
-Ce n&amp;rsquo;est pas une BD mainstream, clairement pour Adultes car Bourgeon en est le créateur, avec des dessins très colorés. J&amp;rsquo;adore toujours autant.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-cycle-de-cyann-tome-6.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-cycle-de-cyann-tome-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
+      <description>Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.
+J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !
+Le Tueur (tomes 11, 12, 13) L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.
+Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
     </item>
     
   </channel>

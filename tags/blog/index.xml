@@ -2,14 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on itamago</title>
-    <link>https://www.itamago.com/tags/blog/index.xml</link>
+    <link>https://www.itamago.com/tags/blog/</link>
     <description>Recent content in Blog on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <atom:link href="https://www.itamago.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.itamago.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Le blog est né !</title>
@@ -17,153 +20,11 @@
       <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-11-27-first-post/</guid>
-      <description>
-
-&lt;p&gt;Aujourd&amp;rsquo;hui le blog est né !&lt;/p&gt;
-
-&lt;h2 id=&#34;ce-qui-a-guidé-mon-choix&#34;&gt;Ce qui a guidé mon choix&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai choisi un système de &lt;em&gt;blog statique&lt;/em&gt; :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;pas de base de données,&lt;/li&gt;
-&lt;li&gt;écriture des textes en markdown,&lt;/li&gt;
-&lt;li&gt;facile à maintenir,&lt;/li&gt;
-&lt;li&gt;génération des pages en ligne de commande&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Simple et rapide :)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“La simplicité est la sophistication suprême.” - Leonardo Da Vinci&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;l-affichage-de-code-source&#34;&gt;L&amp;rsquo;affichage de code source&lt;/h2&gt;
-
-&lt;p&gt;Ce genre de blog est véritablement pratique pour écrire du &lt;code&gt;code&lt;/code&gt;.&lt;br /&gt;
-C&amp;rsquo;est mon premier critère de choix.&lt;br /&gt;
-Par exemple les &lt;strong&gt;snipets&lt;/strong&gt; peuvent s&amp;rsquo;écrire très facilement et le code reste lisible :&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;
-class ALIGN8 Vec2
-{
-    public:
-        // Data
-        union
-        {
-            float   vals[2];
-            struct  { float  x,y; };
-            struct  { float  width,height; };
-            simd2f  v64;
-        };
-
-        // Constructors
-        inline          Vec2        ();
-        inline          Vec2        (const Vec2 &amp;a);
-        inline          Vec2        (const float nx, const float ny);
-
-        // Methods
-                float   Length      ();
-                float   SqLength    ();
-                Vec2 &amp;  Normalize   ();
-        inline  Vec2 &amp;  Multiply    (const Vec2 &amp;);
-};
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Plusieurs langages sont supportés.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;les-ressources-graphiques&#34;&gt;Les ressources graphiques&lt;/h2&gt;
-
-&lt;p&gt;Il est aussi très simple d&amp;rsquo;inclure des images ou des vidéos dans ce blog.&lt;br /&gt;
-Quelques lignes suffisent.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;http://placehold.it/1200x600.jpg&#34;&gt;&lt;img src=&#34;http://placehold.it/600x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;http://placehold.it/1200x600.jpg&#34;&gt;&lt;img src=&#34;http://placehold.it/600x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Et une vidéo :&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/SU3kYxJmWuQ&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;affichage-de-tables&#34;&gt;Affichage de tables&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Header1&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Header2&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Header3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;cell1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;cell2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;cell3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;cell4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;cell5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;cell6&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;cell1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;cell2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;cell3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;cell4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;cell5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;cell6&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;Foot1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Foot2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;Foot3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;des-boutons&#34;&gt;Des boutons&lt;/h2&gt;
-
-&lt;div markdown=&#34;0&#34; style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;#&#34; class=&#34;btn btn-success&#34;&gt;Un bouton&lt;/a&gt;    &lt;a href=&#34;#&#34; class=&#34;btn btn-info&#34;&gt;Un second bouton&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt;Aussi une boite à remarques :&lt;/p&gt;
-
-&lt;div class=&#34;notice&#34;&gt;Boite à remarques !&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;support-de-mathjax&#34;&gt;Support de MathJax&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;donne:
-$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$&lt;/p&gt;
-
-&lt;p&gt;On peut aussi écrire en &amp;ldquo;inline&amp;rdquo; :  $a^n + b^2 = c^2$.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ex&lt;/strong&gt;: Si $a \ne 0$, alors il y a deux solutions à \(ax^2 + bx + c = 0\) et elles sont:&lt;/p&gt;
-
-&lt;p&gt;$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$&lt;/p&gt;
-</description>
+      <description>Aujourd&amp;rsquo;hui le blog est né !
+Ce qui a guidé mon choix J&amp;rsquo;ai choisi un système de blog statique :
+ pas de base de données, écriture des textes en markdown, facile à maintenir, génération des pages en ligne de commande  Simple et rapide :)
+ “La simplicité est la sophistication suprême.” - Leonardo Da Vinci
+ L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
     </item>
     
   </channel>

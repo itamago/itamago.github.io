@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</loc>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</loc>
@@ -7,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://www.itamago.com/post/2017-06-17-serre-permaculture%20copy/</loc>
+    <loc>https://www.itamago.com/post/2017-06-17-serre-permaculture/</loc>
     <lastmod>2017-06-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -42,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://www.itamago.com/post/2016-01-17-ImGUI-investigations/</loc>
+    <loc>https://www.itamago.com/post/2016-01-17-imgui-investigations/</loc>
     <lastmod>2016-01-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,8 +100,13 @@
   </url>
   
   <url>
+    <loc>https://www.itamago.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.itamago.com/tags/code/</loc>
-    <lastmod>2016-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +118,7 @@
   
   <url>
     <loc>https://www.itamago.com/tags/jardin/</loc>
-    <lastmod>2017-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -143,18 +154,19 @@
   
   <url>
     <loc>https://www.itamago.com/post/</loc>
-    <lastmod>2017-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.itamago.com/tags/</loc>
+    <lastmod>2015-12-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.itamago.com/</loc>
-    <lastmod>2017-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

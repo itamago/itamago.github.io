@@ -2,15 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>itamago</title>
-    <link>https://www.itamago.com/index.xml</link>
+    <link>https://www.itamago.com/</link>
     <description>Recent content on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Sat, 09 Dec 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.itamago.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.itamago.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Faille macOS 0-day</title>
+      <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</guid>
+      <description>Une faille macOS active sur toutes les version depuis 2002.
+Le codeur est très pédagogue, il y va progressivement, et même un novice en sécurité pourra comprendre comment il s&amp;rsquo;y est pris.
+Une lecture à ne pas manquer : IOHIDeous</description>
+    </item>
     
     <item>
       <title>Hexagonal Grids</title>
@@ -18,30 +31,20 @@
       <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</guid>
-      <description>&lt;p&gt;Nouveau projet perso en cours : jeu de stratégie héxagonal.&lt;/p&gt;
-
-&lt;p&gt;Un site fantastique présentant la partie technique héxagonale : &lt;a href=&#34;https://www.redblobgames.com/grids/hexagons/&#34;&gt;RedBlobGames&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Nouveau projet perso en cours : jeu de stratégie héxagonal.
+Un site fantastique présentant la partie technique héxagonale : RedBlobGames
+Quelques captures d&amp;rsquo;écran dans pas longtemps.</description>
     </item>
     
     <item>
       <title>Serre à permaculture</title>
-      <link>https://www.itamago.com/post/2017-06-17-serre-permaculture%20copy/</link>
+      <link>https://www.itamago.com/post/2017-06-17-serre-permaculture/</link>
       <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2017-06-17-serre-permaculture%20copy/</guid>
-      <description>&lt;p&gt;En cherchant des aménagements pour mon jardin, j&amp;rsquo;ai découvert le site d&amp;rsquo;une association qui tente de développer des techniques open-source pour le recyclage ou la culture.&lt;/p&gt;
-
-&lt;p&gt;Le site de l&amp;rsquo;association : &lt;a href=&#34;https://myfood.eu/&#34;&gt;MyFood&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/fi728-dgViU&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !&lt;/p&gt;
-
-&lt;p&gt;Voici un exemple de toute petite serre:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/WeUh74s2m30&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-</description>
+      <guid>https://www.itamago.com/post/2017-06-17-serre-permaculture/</guid>
+      <description>En cherchant des aménagements pour mon jardin, j&amp;rsquo;ai découvert le site d&amp;rsquo;une association qui tente de développer des techniques open-source pour le recyclage ou la culture.
+Le site de l&amp;rsquo;association : MyFood
+ Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !</description>
     </item>
     
     <item>
@@ -50,24 +53,11 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/kung-fu/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;Vous mangez chaque jour.&lt;br /&gt;
-Vous brossez vos dents chaque jour.&lt;br /&gt;
-Il faut s&amp;rsquo;entrainer chaque jour.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;echauffement-basique&#34;&gt;Echauffement basique&lt;/h2&gt;
-
-&lt;p&gt;Voici une vidéo de 5 minutes qui exhibe quelques mouvements à effectuer à chaque entrainements.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TefZOdxFSFY&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;div class=&#34;notice&#34;&gt;Remerciements : je remercie le groupe EnergieForme pour m&#39;avoir laisser filmer dans leur salle.&lt;/div&gt;
-</description>
+      <description>  Vous mangez chaque jour.
+Vous brossez vos dents chaque jour.
+Il faut s&amp;rsquo;entrainer chaque jour.
+ Echauffement basique Voici une vidéo de 5 minutes qui exhibe quelques mouvements à effectuer à chaque entrainements.
+ Remerciements : je remercie le groupe EnergieForme pour m&#39;avoir laisser filmer dans leur salle. </description>
     </item>
     
     <item>
@@ -76,64 +66,9 @@ Il faut s&amp;rsquo;entrainer chaque jour.&lt;/p&gt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/mathematiques/</guid>
-      <description>
-
-&lt;p&gt;Ci-dessous, vous trouverez des documents liés aux mathématiques.&lt;/p&gt;
-
-&lt;h2 id=&#34;cours-de-maths&#34;&gt;Cours de maths&lt;/h2&gt;
-
-&lt;p&gt;Voici des résumés de cours de mathématiques, niveau prépa.
-Ces résumés sont &lt;em&gt;courts&lt;/em&gt; et démystifieront la plupart des cours indigestes qu&amp;rsquo;on peut ingurgiter en classe préparatoire ou license de maths !&lt;/p&gt;
-
-&lt;p&gt;Cliquez individuellement sur les liens pour visualiser les fichiers PDF dans votre navigateur, ou bien téléchargez tous les cours en cliquant sur le bouton en bas de page.
-{: .notice}&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Groupes.pdf&#34;&gt;Groupes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Anneaux.pdf&#34;&gt;Anneaux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/CalculMatriciel.pdf&#34;&gt;Calcul Matriciel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Compacite.pdf&#34;&gt;Compacité&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Completude.pdf&#34;&gt;Complétude&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Dualite.pdf&#34;&gt;Dualité&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ConnexiteParArcs.pdf&#34;&gt;Connexité Par Arcs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EndomEuclidienHermitien.pdf&#34;&gt;Endomorphisme Euclidien et Hermitien&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesPrehilbertiensComplexes.pdf&#34;&gt;Espaces Préhilbertiens Complexes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesPrehilbertiensReels.pdf&#34;&gt;Espaces Préhilbertiens Réels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/EspacesVectoriels.pdf&#34;&gt;Espaces Vectoriels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Evn.pdf&#34;&gt;Espaces Vectoriels Normés&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Topologie_evn.pdf&#34;&gt;Topologie - Espace Vectoriel Normé&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/formesQuadratiques.pdf&#34;&gt;Formes Quadratiques&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndom.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndomAutoadjoint.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme Autoadjoint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ReducEndomDimensionFinie.pdf&#34;&gt;Reduction d&amp;rsquo;Endomorphisme en Dimension Finie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Sobolev.pdf&#34;&gt;Espace de Sobolev en Dimension 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ContinuiteLimite.pdf&#34;&gt;Continuité et Limite&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/ConvergenceUniforme.pdf&#34;&gt;Convergence Uniforme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionReelleVarReelle.pdf&#34;&gt;Fonction Réelle de Variable Réelle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionsIntegrales.pdf&#34;&gt;Fonctions Intégrales&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/fonctionsPlusieursVariables.pdf&#34;&gt;Fonctions de Plusieurs Variables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/FonctionVectorielleVarReelle.pdf&#34;&gt;Fonction Vectorielle à Variable Réelle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/IntegralesSurIntervalle.pdf&#34;&gt;Intégrales Sur un Intervalle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Lebesgue.pdf&#34;&gt;Espaces de Lebesgue&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/Probas.pdf&#34;&gt;Probabilités&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SuitesReelles.pdf&#34;&gt;Suites Réelles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesGeneralites.pdf&#34;&gt;Séries - Généralites&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesEntieres.pdf&#34;&gt;Séries Entières&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesFonctions.pdf&#34;&gt;Séries de Fonctions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesFourier.pdf&#34;&gt;Séries de Fourier&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesTermesPositifs.pdf&#34;&gt;Séries à Termes Positifs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SeriesTermesBanach.pdf&#34;&gt;Séries à Termes dans un Espace de Banach&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SolutionVariationnelle.pdf&#34;&gt;Solution Variationnelle des Problèmes aux Limites Elliptiques&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/SuitesFonctions_IntegralesAvecParametre.pdf&#34;&gt;Intégrales et Suites de Fonctions - Intégrales Avec Parametre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/TheorieMesure.pdf&#34;&gt;Theorie de la Mesure&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;div markdown=&#34;0&#34; style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.itamago.com/assets/cours_math/cours_math.zip&#34; class=&#34;btn btn-info&#34;&gt;Télécharger tous les cours (22 MB)&lt;/a&gt;&lt;/div&gt;
-</description>
+      <description>Ci-dessous, vous trouverez des documents liés aux mathématiques.
+Cours de maths Voici des résumés de cours de mathématiques, niveau prépa. Ces résumés sont courts et démystifieront la plupart des cours indigestes qu&amp;rsquo;on peut ingurgiter en classe préparatoire ou license de maths !
+Cliquez individuellement sur les liens pour visualiser les fichiers PDF dans votre navigateur, ou bien téléchargez tous les cours en cliquant sur le bouton en bas de page.</description>
     </item>
     
     <item>
@@ -142,16 +77,11 @@ Ces résumés sont &lt;em&gt;courts&lt;/em&gt; et démystifieront la plupart des
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/about/</guid>
-      <description>&lt;p&gt;Ce blog est un espace qui me permet de partager mes découvertes et me sert aussi de pense-bête.&lt;/p&gt;
-
-&lt;p&gt;Vous y trouverez des articles sur la programmation, le sport, les nouvelles technologies, etc.&lt;/p&gt;
-
-&lt;p&gt;N&amp;rsquo;hésitez pas à m&amp;rsquo;envoyer un email ou à déposer un commentaire !&lt;/p&gt;
-
-&lt;p&gt;À bientôt,&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash; Pacôme.&lt;/p&gt;
-</description>
+      <description>Ce blog est un espace qui me permet de partager mes découvertes et me sert aussi de pense-bête.
+Vous y trouverez des articles sur la programmation, le sport, les nouvelles technologies, etc.
+N&amp;rsquo;hésitez pas à m&amp;rsquo;envoyer un email ou à déposer un commentaire !
+À bientôt,
+&amp;ndash; Pacôme.</description>
     </item>
     
     <item>
@@ -160,18 +90,9 @@ Ces résumés sont &lt;em&gt;courts&lt;/em&gt; et démystifieront la plupart des
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2016-06-18-maths-et-kungfu/</guid>
-      <description>&lt;p&gt;J&amp;rsquo;ai enfin pris le temps de remplir deux pages concernant les mathématiques et le KungFu:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/mathematiques/&#34;&gt;Page des Mathématiques&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.itamago.com/kung-fu/&#34;&gt;Page du KungFu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu.
-Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TefZOdxFSFY&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-</description>
+      <description>J&amp;rsquo;ai enfin pris le temps de remplir deux pages concernant les mathématiques et le KungFu:
+ Page des Mathématiques Page du KungFu  Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu. Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)
+ </description>
     </item>
     
     <item>
@@ -180,16 +101,11 @@ Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)&
       <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2016-01-31-unravel/</guid>
-      <description>&lt;p&gt;Un jeu qui me donne envie de sortir des billets du portefeuille.&lt;/p&gt;
-
-&lt;p&gt;Ce jeu est &lt;strong&gt;beau&lt;/strong&gt; et &lt;strong&gt;doux&lt;/strong&gt;. Techniquement, on a beaucoup de choses à dire aussi. Mais c&amp;rsquo;est la direction artistique qui est fabuleuse, car le jeu semble homogène de bout en bout.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;ai hâte de le tester !&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.unravelgame.com&#34;&gt;Site officiel&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/QpnY1G3vt_0&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-</description>
+      <description>Un jeu qui me donne envie de sortir des billets du portefeuille.
+Ce jeu est beau et doux. Techniquement, on a beaucoup de choses à dire aussi. Mais c&amp;rsquo;est la direction artistique qui est fabuleuse, car le jeu semble homogène de bout en bout.
+J&amp;rsquo;ai hâte de le tester !
+Site officiel
+ </description>
     </item>
     
     <item>
@@ -198,147 +114,21 @@ Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)&
       <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2016-01-24-kim-jung-gi/</guid>
-      <description>
-
-&lt;p&gt;Rien à voir avec la Corée du Nord !&lt;/p&gt;
-
-&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un dessinateur &lt;strong&gt;extrêmement talentueux&lt;/strong&gt; que j&amp;rsquo;ai tardivement découvert.&lt;/p&gt;
-
-&lt;h2 id=&#34;quelques-dessins-pour-donner-une-idée&#34;&gt;Quelques dessins pour donner une idée&lt;/h2&gt;
-
-&lt;p&gt;Ces images sont gracieusement empruntées sur le web (Google image) pour vous donner un aperçu de son talent.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-2.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-3.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-3.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-1.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-4.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/kim-jung-gi/kim-jung-gi-4.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;C&amp;rsquo;est magnifique. Les détails sont incroyablement subtils : regardez comme il trace un visage expressif avec quelques lignes seulement, sans rajouter de détails ou d&amp;rsquo;ombres. Un coup de pinceau et l&amp;rsquo;image devient vivante. C&amp;rsquo;est très rare de voir autant de talent chez un dessinateur, et c&amp;rsquo;est surtout bluffant de voir sa vitesse de travail (vidéo ci-dessous).&lt;/p&gt;
-
-&lt;h2 id=&#34;un-dessin-en-live&#34;&gt;Un dessin en live&lt;/h2&gt;
-
-&lt;p&gt;Impressionnant par sa vitesse d&amp;rsquo;execution. Sans aucune erreur.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/uNtmdB6N5Qo&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&#34;quelques-liens&#34;&gt;Quelques liens&lt;/h2&gt;
-
-&lt;p&gt;Voici quelques liens pour les intéressés:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.superani.com&#34;&gt;SUPERANI, site professionnel de l&amp;rsquo;auteur&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.kimjunggi.net&#34;&gt;Site officiel Européen&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Rien à voir avec la Corée du Nord !
+Il s&amp;rsquo;agit d&amp;rsquo;un dessinateur extrêmement talentueux que j&amp;rsquo;ai tardivement découvert.
+Quelques dessins pour donner une idée Ces images sont gracieusement empruntées sur le web (Google image) pour vous donner un aperçu de son talent.
+      C&amp;rsquo;est magnifique. Les détails sont incroyablement subtils : regardez comme il trace un visage expressif avec quelques lignes seulement, sans rajouter de détails ou d&amp;rsquo;ombres.</description>
     </item>
     
     <item>
       <title>Une GUI simple et efficace</title>
-      <link>https://www.itamago.com/post/2016-01-17-ImGUI-investigations/</link>
+      <link>https://www.itamago.com/post/2016-01-17-imgui-investigations/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2016-01-17-ImGUI-investigations/</guid>
-      <description>
-
-&lt;p&gt;Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ce-qui-a-guidé-mon-choix&#34;&gt;Ce qui a guidé mon choix&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai décidé de conserver &lt;strong&gt;Cocoa&lt;/strong&gt; pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.&lt;/p&gt;
-
-&lt;p&gt;Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.&lt;/p&gt;
-
-&lt;h2 id=&#34;première-option-libnui-http-libnui-github-io-nui3&#34;&gt;Première option : &lt;a href=&#34;http://libnui.github.io/nui3/&#34;&gt;LibNUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai d&amp;rsquo;abord pensé à utiliser &lt;a href=&#34;http://libnui.github.io/nui3/&#34;&gt;LibNUI&lt;/a&gt;, une belle librairie graphique créée par mon pote Sébastien Métrot.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/libnui-bleepsynth.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/libnui-bleepsynth.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/libnui-card.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/libnui-card.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Sa librairie est complête et embarque plein de tools intéressants. Elle permet de réaliser n&amp;rsquo;importe quelle application 2D, aussi complexe soit elle. L&amp;rsquo;intégralité du rendu est effectué en 3D. Elle est totalement cross-platform.&lt;/p&gt;
-
-&lt;p&gt;Mais elle est plutôt adaptée à des applications complexes et puissantes. Dans mon cas, je veux juste pouvoir debugger efficacement sur iOS, pas besoin de fioriture.&lt;/p&gt;
-
-&lt;h2 id=&#34;seconde-option-nanogui-https-github-com-wjakob-nanogui&#34;&gt;Seconde option : &lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Puis, j&amp;rsquo;ai testé &lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt; basé sur &lt;a href=&#34;https://github.com/memononen/nanovg&#34;&gt;NanoVG&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Un rendu vraiment très sexy !&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/nanogui-screenshot.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/nanogui-screenshot.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Cette librairie est compacte (peu de fichiers à embarquer) et moins complexe à intégrer dans un moteur existant que LibNUI. Ça se rapprochait déjà plus de ce que je recherche.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;ai commencé l&amp;rsquo;intégration de NanoGUI dans mon moteur, et j&amp;rsquo;ai déprimé sur le couplage avec OpenGL&amp;hellip; Le coût de portage de librairie sur METAL n&amp;rsquo;est pas négligeable si on veut faire ça bien. Et je n&amp;rsquo;ai malheureusement pas de temps à consacrer à ça pour le moment.&lt;/p&gt;
-
-&lt;p&gt;Autre point négatif, c&amp;rsquo;est son emprunte CPU et GPU. Pour une librairie que j&amp;rsquo;utiliserai en debug, c&amp;rsquo;est cher payé.&lt;/p&gt;
-
-&lt;p&gt;Donc je la garde dans un coin de ma tête, pour plus tard.&lt;/p&gt;
-
-&lt;h2 id=&#34;troisième-option-imgui-https-github-com-ocornut-imgui&#34;&gt;Troisième option : &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Finalement, j&amp;rsquo;ai découvert &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Je vais être très franc et peser mes mots :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;le rendu est vraiment &lt;strong&gt;spartiate&lt;/strong&gt; (certains diront &lt;em&gt;moche&lt;/em&gt;),&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mais cette lib est :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tellement &lt;strong&gt;simple à utiliser&lt;/strong&gt;,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;facile à intégrer&lt;/strong&gt; dans un moteur existant,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;compacte&lt;/strong&gt; dans son design et dans son implémentation,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;légère&lt;/strong&gt; en CPU et GPU,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;lisible&lt;/strong&gt; et &lt;strong&gt;modifiable&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Qu&amp;rsquo;il est &lt;strong&gt;impossible&lt;/strong&gt; d&amp;rsquo;y rester insensible !&lt;/p&gt;
-
-&lt;p&gt;Ça m&amp;rsquo;a pris une heure de l&amp;rsquo;intégrer dans mon moteur en METAL :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;quelques buffers GPU à créer,&lt;/li&gt;
-&lt;li&gt;une seule texture,&lt;/li&gt;
-&lt;li&gt;un seul shader,&lt;/li&gt;
-&lt;li&gt;et une redirection d&amp;rsquo;input iOS/OSX.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Hop&lt;/strong&gt; le tour est joué.&lt;br /&gt;
-Et le rendu est parfaitement &lt;strong&gt;identique&lt;/strong&gt; sur OSX et iOS.&lt;br /&gt;
-Jouissif.&lt;/p&gt;
-
-&lt;p&gt;Voici quelques captures d&amp;rsquo;écran sur OSX avec un layout 3D d&amp;rsquo;iPhone 5. On y voit mes scènes de benchmark, la fenêtre de démo d&amp;rsquo;ImGUI, et une petite fenêtre de profiling créée en quelques minutes.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-0.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-0.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-1.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Et voici le shader ImGUI, vraiment gratos.&lt;br /&gt;
-À gauche la version classique, et à droite la version préprocessée.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-2.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Enfantin.&lt;/p&gt;
-
-&lt;p&gt;Comme je le disais, certain peuvent rester bloquer sur l&amp;rsquo;aspect spartiate de la GUI. Mais n&amp;rsquo;oublions pas les objectifs initiaux : &lt;strong&gt;le debug&lt;/strong&gt; et &lt;strong&gt;la perf&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Et qu&amp;rsquo;on se rassure, une nouvelle version poindra probablement bientôt le bout de son nez avec un design plus &lt;em&gt;moderne&lt;/em&gt;. Espérons qu&amp;rsquo;elle conservera sa faible emprunte et restera aussi simple à utiliser.&lt;/p&gt;
-</description>
+      <guid>https://www.itamago.com/post/2016-01-17-imgui-investigations/</guid>
+      <description>Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : ImGUI.
+Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.
+Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</description>
     </item>
     
     <item>
@@ -347,19 +137,10 @@ Jouissif.&lt;/p&gt;
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/politique/</guid>
-      <description>
-
-&lt;p&gt;Vous trouverez ici des textes ou vidéos liés à la polique.&lt;br /&gt;
-Je vous donne juste des pistes à explorer, sans les commenter.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;guerre-en-syrie-témoignage-d-un-directeur-de-la-dgse&#34;&gt;Guerre en Syrie : témoignage d&amp;rsquo;un Directeur de la DGSE&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://fr.wikipedia.org/wiki/Alain_Juillet&#34;&gt;Alain Juillet&lt;/a&gt; a dirigé de la &lt;a href=&#34;https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_ext%C3%A9rieure&#34;&gt;DGSE&lt;/a&gt; et il a mis en place l&amp;rsquo;intelligence économique au sein du &lt;a href=&#34;https://fr.wikipedia.org/wiki/Secr%C3%A9tariat_g%C3%A9n%C3%A9ral_de_la_D%C3%A9fense_et_de_la_S%C3%A9curit%C3%A9_nationale&#34;&gt;SGDN&lt;/a&gt;. Son avis sur l&amp;rsquo;origine de la guerre en Syrie vaut la pein d&amp;rsquo;être écouté.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5siyELxCMNU&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-</description>
+      <description> Vous trouverez ici des textes ou vidéos liés à la polique.
+Je vous donne juste des pistes à explorer, sans les commenter.
+Guerre en Syrie : témoignage d&amp;rsquo;un Directeur de la DGSE Alain Juillet a dirigé de la DGSE et il a mis en place l&amp;rsquo;intelligence économique au sein du SGDN. Son avis sur l&amp;rsquo;origine de la guerre en Syrie vaut la pein d&amp;rsquo;être écouté.
+ </description>
     </item>
     
     <item>
@@ -368,47 +149,10 @@ Je vous donne juste des pistes à explorer, sans les commenter.&lt;/p&gt;
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-24-noel-bd/</guid>
-      <description>
-
-&lt;p&gt;Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !&lt;/p&gt;
-
-&lt;h2 id=&#34;le-tueur-tomes-11-12-13&#34;&gt;Le Tueur &lt;em&gt;(tomes 11, 12, 13)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.&lt;br /&gt;
-Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.&lt;/p&gt;
-
-&lt;figure class=&#34;third&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-11.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-11.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-12.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-12.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-tueur-13.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-tueur-13.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;le-grand-mort-tome-6&#34;&gt;Le Grand Mort &lt;em&gt;(tome 6)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Je l&amp;rsquo;attendais depuis un an !&lt;/p&gt;
-
-&lt;p&gt;Pour Noël 2014, j&amp;rsquo;avais offert les cinq premiers tomes à mon père, et je me suis délecté de leur lecture pendant deux après-midi.&lt;/p&gt;
-
-&lt;p&gt;Loisel parvient à nous transporter dans un monde parallèle pendant plusieurs heures.&lt;br /&gt;
-J&amp;rsquo;ai hâte de lire ce dernier tome !&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-grand-mort-tome-6.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-grand-mort-tome-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Petite anecdote&lt;/strong&gt; : Loisel a habité Enghien-les-bains &lt;strong&gt;pendant plus de 15 ans&lt;/strong&gt;, et je l&amp;rsquo;ai su hier seulement ! Je comprends mieux pourquoi la librairie &lt;em&gt;Impressions&lt;/em&gt; avait toujours ses albums en avant-première ;)&lt;/p&gt;
-
-&lt;h2 id=&#34;le-cycle-de-cyann-tome-6&#34;&gt;Le Cycle de Cyann &lt;em&gt;(tome 6)&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Une série dont les épisodes sortent au compte-goutte.&lt;br /&gt;
-Ce n&amp;rsquo;est pas une BD mainstream, clairement pour Adultes car Bourgeon en est le créateur, avec des dessins très colorés. J&amp;rsquo;adore toujours autant.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/bd/le-cycle-de-cyann-tome-6.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/bd/le-cycle-de-cyann-tome-6.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-</description>
+      <description>Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.
+J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !
+Le Tueur (tomes 11, 12, 13) L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.
+Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
     </item>
     
     <item>
@@ -417,20 +161,10 @@ Ce n&amp;rsquo;est pas une BD mainstream, clairement pour Adultes car Bourgeon e
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-20-psycho-pass/</guid>
-      <description>
-
-&lt;p&gt;En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)&lt;/p&gt;
-
-&lt;h2 id=&#34;critiques-du-web&#34;&gt;Critiques du web&lt;/h2&gt;
-
-&lt;p&gt;Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.&lt;br /&gt;
-Disponible en 720p, il va combler quelques soirées de Noël, pendant que les enfants dorment !&lt;/p&gt;
-
-&lt;h2 id=&#34;aperçu&#34;&gt;Aperçu&lt;/h2&gt;
-
-&lt;p&gt;Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 720p chez soi.
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/hfp3WYNxJxo&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)
+Critiques du web Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.
+Disponible en 720p, il va combler quelques soirées de Noël, pendant que les enfants dorment !
+Aperçu Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 720p chez soi.</description>
     </item>
     
     <item>
@@ -439,64 +173,10 @@ Disponible en 720p, il va combler quelques soirées de Noël, pendant que les en
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-05-gui-cpp/</guid>
-      <description>
-
-&lt;p&gt;Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.&lt;br /&gt;
-Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..&lt;/p&gt;
-
-&lt;h2 id=&#34;régression-de-gui&#34;&gt;Régression de GUI&lt;/h2&gt;
-
-&lt;p&gt;Depuis 3 jours je bloque sur une regression des NSScrollView.&lt;br /&gt;
-Après avoir épluché les forums officiels d&amp;rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.&lt;/p&gt;
-
-&lt;p&gt;Sans entrer dans le détail, le problème est simple : je veux juste faire mon rendu custom dans une NSView et pouvoir la scroller !&lt;br /&gt;
-Tout fonctionnait parfaitement avec &lt;strong&gt;xcode 6&lt;/strong&gt;, et depuis &lt;strong&gt;xcode 7&lt;/strong&gt; ça déconne totalement.&lt;/p&gt;
-
-&lt;h2 id=&#34;gui-qui-fonctionne&#34;&gt;GUI qui fonctionne&lt;/h2&gt;
-
-&lt;p&gt;Voici un rendu qui fonctionne : l&amp;rsquo;éditeur de TimeLines.&lt;br /&gt;
-Les scrollbars fonctionnent, je peux me déplacer à ma guise.
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_TimeLines.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_TimeLines.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;gui-qui-déconne&#34;&gt;GUI qui déconne&lt;/h2&gt;
-
-&lt;p&gt;Et voici un rendu qui ne fonctionne plus du tout : l&amp;rsquo;éditeur de passes&amp;hellip;&lt;br /&gt;
-Impossible de faire fonctionner ces foutues scrollbars : elles n&amp;rsquo;apparaissent pas.&lt;br /&gt;
-Pourtant tout fonctionnait avec &lt;strong&gt;xcode 6&lt;/strong&gt; !
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_Chart.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_Chart.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est quand même incroyable de devoir me taper le debug des produits Apple.&lt;br /&gt;
-C&amp;rsquo;est la société la plus riche au monde et elle n&amp;rsquo;est pas capable de s&amp;rsquo;offrir des tests de non-régression digne de ce nom&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;utiliser-un-système-de-gui-alternatif&#34;&gt;Utiliser un système de GUI alternatif ?&lt;/h2&gt;
-
-&lt;p&gt;Donc ce soir j&amp;rsquo;ai passé un peu de temps à examiner les GUI alternatives.&lt;/p&gt;
-
-&lt;p&gt;D&amp;rsquo;abord, j&amp;rsquo;ai été séduit par les GUI de &lt;a href=&#34;http://www.blender.org/&#34;&gt;Blender&lt;/a&gt;. C&amp;rsquo;est très joli, codé en C++, mais impossible de séparer le code de l&amp;rsquo;éditeur.&lt;/p&gt;
-
-&lt;p&gt;Ensuite, j&amp;rsquo;ai trouvé d&amp;rsquo;autres GUI cross-platform qui semblent mûres aujourd&amp;rsquo;hui :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.qt.io/&#34;&gt;Qt&lt;/a&gt;&lt;br /&gt;
-Cette librairie vieille de 20 ans s&amp;rsquo;est transformée à plusieurs reprises et a vraiment bien évolué. Elle est flexible, puissante, et elle tourne sur toutes les plateformes !&lt;br /&gt;
-Mais c&amp;rsquo;est une telle usine à gaz que les samples-codes m&amp;rsquo;ont vite fait fuir. Pas le temps d&amp;rsquo;apprendre à me servir d&amp;rsquo;un engine complet pour faire des GUIs.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt;&lt;br /&gt;
-Cette lib se désigne comme &lt;strong&gt;&lt;em&gt;Minimalistic GUI library for OpenGL&lt;/em&gt;&lt;/strong&gt;. C&amp;rsquo;est clairement prometeur, et certaines features me plaisent beaucoup telles que le support du C++11, l&amp;rsquo;utilisation de lambdas, et des widgets de tracé de graphes.&lt;br /&gt;
-Je vais la tester ce soir.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sp4cerat/Game-GUI&#34;&gt;Game-GUI&lt;/a&gt;&lt;br /&gt;
-&lt;strong&gt;Mon coup de coeur&lt;/strong&gt;. Très simple, et réalise la performance d&amp;rsquo;être codé en 2000 lignes de C++.  Elle propose les features classique (skinning, widgets standards, etc), et cela fait d&amp;rsquo;elle un excellente candidate pour intégrer mon moteur en tant que module de GUI pour METAL. Cerise sur le gateau : elle est en licence MIT.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;et-finalement&#34;&gt;Et finalement&amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;Je vais poursuivre encore un peu avec Cocoa. Je laisse une chance à Apple de se rattrapper avec le mise à jour de xcode qui ne saura tarder.&lt;br /&gt;
-Et en attendant, je vais tester NanoGUI et Game-GUI.&lt;br /&gt;
-J&amp;rsquo;ai une longue nuit qui s&amp;rsquo;annonce !&lt;/p&gt;
-</description>
+      <description>Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.
+Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..
+Régression de GUI Depuis 3 jours je bloque sur une regression des NSScrollView.
+Après avoir épluché les forums officiels d&amp;rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.</description>
     </item>
     
     <item>
@@ -505,12 +185,8 @@ J&amp;rsquo;ai une longue nuit qui s&amp;rsquo;annonce !&lt;/p&gt;
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-11-28-video-dbz/</guid>
-      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/HM20wwzl4Ds&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !&lt;/p&gt;
-
-&lt;p&gt;Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..&lt;/p&gt;
-</description>
+      <description>Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !
+Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..</description>
     </item>
     
     <item>
@@ -519,24 +195,24 @@ J&amp;rsquo;ai une longue nuit qui s&amp;rsquo;annonce !&lt;/p&gt;
       <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-11-28-envie-de-dessin/</guid>
-      <description>&lt;p&gt;Cela fait des mois que j&amp;rsquo;ai envie de me remettre à dessiner.&lt;/p&gt;
-
-&lt;p&gt;À chaque fois que je vois ma fille prendre des crayons de couleur et s&amp;rsquo;appliquer à colorier, ça me donne envie.&lt;br /&gt;
-J&amp;rsquo;ai la tête plein d&amp;rsquo;idées, de bandes dessinées, d&amp;rsquo;histoire amusantes, de logos, et j&amp;rsquo;ai toujours cette frustration de ne pas avoir assez de temps pour crayonner.&lt;/p&gt;
-
-&lt;p&gt;Et puis, l&amp;rsquo;iPad Pro est sorti.&lt;/p&gt;
-
-&lt;p&gt;Evidemment, je l&amp;rsquo;ai examiné comme un nouvel objet &lt;em&gt;geek&lt;/em&gt;, &lt;em&gt;énorme ipad&lt;/em&gt; impossible à trimballer avec soi, et vendu avec un &lt;em&gt;stylo en plastique&lt;/em&gt; qui me semblait de médiocre facture. Et puis les reviews ont commencé à se diffuser sur le net. Un coup marketing d&amp;rsquo;Apple, sans aucun doute. Mais la quantité de reviews positives commencent à me faire douter.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est peut-être un outil sympa pour dessiner sans la contrainte du papier ?&lt;/p&gt;
-
-&lt;p&gt;On trouve des apps pas cher et vraiment efficaces:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://astropad.com/ipad/&#34;&gt;Astropad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://procreate.si&#34;&gt;ProCreate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Cela fait des mois que j&amp;rsquo;ai envie de me remettre à dessiner.
+À chaque fois que je vois ma fille prendre des crayons de couleur et s&amp;rsquo;appliquer à colorier, ça me donne envie.
+J&amp;rsquo;ai la tête plein d&amp;rsquo;idées, de bandes dessinées, d&amp;rsquo;histoire amusantes, de logos, et j&amp;rsquo;ai toujours cette frustration de ne pas avoir assez de temps pour crayonner.
+Et puis, l&amp;rsquo;iPad Pro est sorti.
+Evidemment, je l&amp;rsquo;ai examiné comme un nouvel objet geek, énorme ipad impossible à trimballer avec soi, et vendu avec un stylo en plastique qui me semblait de médiocre facture.</description>
+    </item>
+    
+    <item>
+      <title>Le blog est né !</title>
+      <link>https://www.itamago.com/post/2015-11-27-first-post/</link>
+      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/post/2015-11-27-first-post/</guid>
+      <description>Aujourd&amp;rsquo;hui le blog est né !
+Ce qui a guidé mon choix J&amp;rsquo;ai choisi un système de blog statique :
+ pas de base de données, écriture des textes en markdown, facile à maintenir, génération des pages en ligne de commande  Simple et rapide :)
+ “La simplicité est la sophistication suprême.” - Leonardo Da Vinci
+ L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
     </item>
     
   </channel>

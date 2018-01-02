@@ -2,14 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manga on itamago</title>
-    <link>https://www.itamago.com/tags/manga/index.xml</link>
+    <link>https://www.itamago.com/tags/manga/</link>
     <description>Recent content in Manga on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <atom:link href="https://www.itamago.com/tags/manga/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.itamago.com/tags/manga/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Nouvel anime : Psycho-Pass</title>
@@ -17,20 +20,10 @@
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-20-psycho-pass/</guid>
-      <description>
-
-&lt;p&gt;En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)&lt;/p&gt;
-
-&lt;h2 id=&#34;critiques-du-web&#34;&gt;Critiques du web&lt;/h2&gt;
-
-&lt;p&gt;Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.&lt;br /&gt;
-Disponible en 720p, il va combler quelques soirées de Noël, pendant que les enfants dorment !&lt;/p&gt;
-
-&lt;h2 id=&#34;aperçu&#34;&gt;Aperçu&lt;/h2&gt;
-
-&lt;p&gt;Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 720p chez soi.
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/hfp3WYNxJxo&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)
+Critiques du web Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.
+Disponible en 720p, il va combler quelques soirées de Noël, pendant que les enfants dorment !
+Aperçu Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 720p chez soi.</description>
     </item>
     
     <item>
@@ -39,12 +32,8 @@ Disponible en 720p, il va combler quelques soirées de Noël, pendant que les en
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-11-28-video-dbz/</guid>
-      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/HM20wwzl4Ds&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !&lt;/p&gt;
-
-&lt;p&gt;Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..&lt;/p&gt;
-</description>
+      <description>Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !
+Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..</description>
     </item>
     
   </channel>

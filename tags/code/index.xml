@@ -2,117 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on itamago</title>
-    <link>https://www.itamago.com/tags/code/index.xml</link>
+    <link>https://www.itamago.com/tags/code/</link>
     <description>Recent content in Code on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <atom:link href="https://www.itamago.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.itamago.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Faille macOS 0-day</title>
+      <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</guid>
+      <description>Une faille macOS active sur toutes les version depuis 2002.
+Le codeur est très pédagogue, il y va progressivement, et même un novice en sécurité pourra comprendre comment il s&amp;rsquo;y est pris.
+Une lecture à ne pas manquer : IOHIDeous</description>
+    </item>
+    
+    <item>
+      <title>Hexagonal Grids</title>
+      <link>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</guid>
+      <description>Nouveau projet perso en cours : jeu de stratégie héxagonal.
+Un site fantastique présentant la partie technique héxagonale : RedBlobGames
+Quelques captures d&amp;rsquo;écran dans pas longtemps.</description>
+    </item>
     
     <item>
       <title>Une GUI simple et efficace</title>
-      <link>https://www.itamago.com/post/2016-01-17-ImGUI-investigations/</link>
+      <link>https://www.itamago.com/post/2016-01-17-imgui-investigations/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2016-01-17-ImGUI-investigations/</guid>
-      <description>
-
-&lt;p&gt;Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ce-qui-a-guidé-mon-choix&#34;&gt;Ce qui a guidé mon choix&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai décidé de conserver &lt;strong&gt;Cocoa&lt;/strong&gt; pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.&lt;/p&gt;
-
-&lt;p&gt;Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.&lt;/p&gt;
-
-&lt;h2 id=&#34;première-option-libnui-http-libnui-github-io-nui3&#34;&gt;Première option : &lt;a href=&#34;http://libnui.github.io/nui3/&#34;&gt;LibNUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;J&amp;rsquo;ai d&amp;rsquo;abord pensé à utiliser &lt;a href=&#34;http://libnui.github.io/nui3/&#34;&gt;LibNUI&lt;/a&gt;, une belle librairie graphique créée par mon pote Sébastien Métrot.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/libnui-bleepsynth.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/libnui-bleepsynth.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/libnui-card.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/libnui-card.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Sa librairie est complête et embarque plein de tools intéressants. Elle permet de réaliser n&amp;rsquo;importe quelle application 2D, aussi complexe soit elle. L&amp;rsquo;intégralité du rendu est effectué en 3D. Elle est totalement cross-platform.&lt;/p&gt;
-
-&lt;p&gt;Mais elle est plutôt adaptée à des applications complexes et puissantes. Dans mon cas, je veux juste pouvoir debugger efficacement sur iOS, pas besoin de fioriture.&lt;/p&gt;
-
-&lt;h2 id=&#34;seconde-option-nanogui-https-github-com-wjakob-nanogui&#34;&gt;Seconde option : &lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Puis, j&amp;rsquo;ai testé &lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt; basé sur &lt;a href=&#34;https://github.com/memononen/nanovg&#34;&gt;NanoVG&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Un rendu vraiment très sexy !&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/nanogui-screenshot.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/nanogui-screenshot.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Cette librairie est compacte (peu de fichiers à embarquer) et moins complexe à intégrer dans un moteur existant que LibNUI. Ça se rapprochait déjà plus de ce que je recherche.&lt;/p&gt;
-
-&lt;p&gt;J&amp;rsquo;ai commencé l&amp;rsquo;intégration de NanoGUI dans mon moteur, et j&amp;rsquo;ai déprimé sur le couplage avec OpenGL&amp;hellip; Le coût de portage de librairie sur METAL n&amp;rsquo;est pas négligeable si on veut faire ça bien. Et je n&amp;rsquo;ai malheureusement pas de temps à consacrer à ça pour le moment.&lt;/p&gt;
-
-&lt;p&gt;Autre point négatif, c&amp;rsquo;est son emprunte CPU et GPU. Pour une librairie que j&amp;rsquo;utiliserai en debug, c&amp;rsquo;est cher payé.&lt;/p&gt;
-
-&lt;p&gt;Donc je la garde dans un coin de ma tête, pour plus tard.&lt;/p&gt;
-
-&lt;h2 id=&#34;troisième-option-imgui-https-github-com-ocornut-imgui&#34;&gt;Troisième option : &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Finalement, j&amp;rsquo;ai découvert &lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;ImGUI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Je vais être très franc et peser mes mots :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;le rendu est vraiment &lt;strong&gt;spartiate&lt;/strong&gt; (certains diront &lt;em&gt;moche&lt;/em&gt;),&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mais cette lib est :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tellement &lt;strong&gt;simple à utiliser&lt;/strong&gt;,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;facile à intégrer&lt;/strong&gt; dans un moteur existant,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;compacte&lt;/strong&gt; dans son design et dans son implémentation,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;légère&lt;/strong&gt; en CPU et GPU,&lt;/li&gt;
-&lt;li&gt;tellement &lt;strong&gt;lisible&lt;/strong&gt; et &lt;strong&gt;modifiable&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Qu&amp;rsquo;il est &lt;strong&gt;impossible&lt;/strong&gt; d&amp;rsquo;y rester insensible !&lt;/p&gt;
-
-&lt;p&gt;Ça m&amp;rsquo;a pris une heure de l&amp;rsquo;intégrer dans mon moteur en METAL :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;quelques buffers GPU à créer,&lt;/li&gt;
-&lt;li&gt;une seule texture,&lt;/li&gt;
-&lt;li&gt;un seul shader,&lt;/li&gt;
-&lt;li&gt;et une redirection d&amp;rsquo;input iOS/OSX.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Hop&lt;/strong&gt; le tour est joué.&lt;br /&gt;
-Et le rendu est parfaitement &lt;strong&gt;identique&lt;/strong&gt; sur OSX et iOS.&lt;br /&gt;
-Jouissif.&lt;/p&gt;
-
-&lt;p&gt;Voici quelques captures d&amp;rsquo;écran sur OSX avec un layout 3D d&amp;rsquo;iPhone 5. On y voit mes scènes de benchmark, la fenêtre de démo d&amp;rsquo;ImGUI, et une petite fenêtre de profiling créée en quelques minutes.&lt;/p&gt;
-
-&lt;figure class=&#34;half&#34;&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-0.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-0.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-1.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Et voici le shader ImGUI, vraiment gratos.&lt;br /&gt;
-À gauche la version classique, et à droite la version préprocessée.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-2.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/gui/imgui-with-EaseFX-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Enfantin.&lt;/p&gt;
-
-&lt;p&gt;Comme je le disais, certain peuvent rester bloquer sur l&amp;rsquo;aspect spartiate de la GUI. Mais n&amp;rsquo;oublions pas les objectifs initiaux : &lt;strong&gt;le debug&lt;/strong&gt; et &lt;strong&gt;la perf&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Et qu&amp;rsquo;on se rassure, une nouvelle version poindra probablement bientôt le bout de son nez avec un design plus &lt;em&gt;moderne&lt;/em&gt;. Espérons qu&amp;rsquo;elle conservera sa faible emprunte et restera aussi simple à utiliser.&lt;/p&gt;
-</description>
+      <guid>https://www.itamago.com/post/2016-01-17-imgui-investigations/</guid>
+      <description>Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : ImGUI.
+Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.
+Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</description>
     </item>
     
     <item>
@@ -121,64 +53,10 @@ Jouissif.&lt;/p&gt;
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
       <guid>https://www.itamago.com/post/2015-12-05-gui-cpp/</guid>
-      <description>
-
-&lt;p&gt;Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.&lt;br /&gt;
-Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..&lt;/p&gt;
-
-&lt;h2 id=&#34;régression-de-gui&#34;&gt;Régression de GUI&lt;/h2&gt;
-
-&lt;p&gt;Depuis 3 jours je bloque sur une regression des NSScrollView.&lt;br /&gt;
-Après avoir épluché les forums officiels d&amp;rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.&lt;/p&gt;
-
-&lt;p&gt;Sans entrer dans le détail, le problème est simple : je veux juste faire mon rendu custom dans une NSView et pouvoir la scroller !&lt;br /&gt;
-Tout fonctionnait parfaitement avec &lt;strong&gt;xcode 6&lt;/strong&gt;, et depuis &lt;strong&gt;xcode 7&lt;/strong&gt; ça déconne totalement.&lt;/p&gt;
-
-&lt;h2 id=&#34;gui-qui-fonctionne&#34;&gt;GUI qui fonctionne&lt;/h2&gt;
-
-&lt;p&gt;Voici un rendu qui fonctionne : l&amp;rsquo;éditeur de TimeLines.&lt;br /&gt;
-Les scrollbars fonctionnent, je peux me déplacer à ma guise.
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_TimeLines.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_TimeLines.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;gui-qui-déconne&#34;&gt;GUI qui déconne&lt;/h2&gt;
-
-&lt;p&gt;Et voici un rendu qui ne fonctionne plus du tout : l&amp;rsquo;éditeur de passes&amp;hellip;&lt;br /&gt;
-Impossible de faire fonctionner ces foutues scrollbars : elles n&amp;rsquo;apparaissent pas.&lt;br /&gt;
-Pourtant tout fonctionnait avec &lt;strong&gt;xcode 6&lt;/strong&gt; !
-&lt;figure&gt;
-    &lt;a href=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_Chart.jpg&#34;&gt;&lt;img src=&#34;https://www.itamago.com/images/easesdk/Capture_Editor_Chart.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est quand même incroyable de devoir me taper le debug des produits Apple.&lt;br /&gt;
-C&amp;rsquo;est la société la plus riche au monde et elle n&amp;rsquo;est pas capable de s&amp;rsquo;offrir des tests de non-régression digne de ce nom&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;utiliser-un-système-de-gui-alternatif&#34;&gt;Utiliser un système de GUI alternatif ?&lt;/h2&gt;
-
-&lt;p&gt;Donc ce soir j&amp;rsquo;ai passé un peu de temps à examiner les GUI alternatives.&lt;/p&gt;
-
-&lt;p&gt;D&amp;rsquo;abord, j&amp;rsquo;ai été séduit par les GUI de &lt;a href=&#34;http://www.blender.org/&#34;&gt;Blender&lt;/a&gt;. C&amp;rsquo;est très joli, codé en C++, mais impossible de séparer le code de l&amp;rsquo;éditeur.&lt;/p&gt;
-
-&lt;p&gt;Ensuite, j&amp;rsquo;ai trouvé d&amp;rsquo;autres GUI cross-platform qui semblent mûres aujourd&amp;rsquo;hui :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.qt.io/&#34;&gt;Qt&lt;/a&gt;&lt;br /&gt;
-Cette librairie vieille de 20 ans s&amp;rsquo;est transformée à plusieurs reprises et a vraiment bien évolué. Elle est flexible, puissante, et elle tourne sur toutes les plateformes !&lt;br /&gt;
-Mais c&amp;rsquo;est une telle usine à gaz que les samples-codes m&amp;rsquo;ont vite fait fuir. Pas le temps d&amp;rsquo;apprendre à me servir d&amp;rsquo;un engine complet pour faire des GUIs.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/wjakob/nanogui&#34;&gt;NanoGUI&lt;/a&gt;&lt;br /&gt;
-Cette lib se désigne comme &lt;strong&gt;&lt;em&gt;Minimalistic GUI library for OpenGL&lt;/em&gt;&lt;/strong&gt;. C&amp;rsquo;est clairement prometeur, et certaines features me plaisent beaucoup telles que le support du C++11, l&amp;rsquo;utilisation de lambdas, et des widgets de tracé de graphes.&lt;br /&gt;
-Je vais la tester ce soir.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sp4cerat/Game-GUI&#34;&gt;Game-GUI&lt;/a&gt;&lt;br /&gt;
-&lt;strong&gt;Mon coup de coeur&lt;/strong&gt;. Très simple, et réalise la performance d&amp;rsquo;être codé en 2000 lignes de C++.  Elle propose les features classique (skinning, widgets standards, etc), et cela fait d&amp;rsquo;elle un excellente candidate pour intégrer mon moteur en tant que module de GUI pour METAL. Cerise sur le gateau : elle est en licence MIT.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;et-finalement&#34;&gt;Et finalement&amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;Je vais poursuivre encore un peu avec Cocoa. Je laisse une chance à Apple de se rattrapper avec le mise à jour de xcode qui ne saura tarder.&lt;br /&gt;
-Et en attendant, je vais tester NanoGUI et Game-GUI.&lt;br /&gt;
-J&amp;rsquo;ai une longue nuit qui s&amp;rsquo;annonce !&lt;/p&gt;
-</description>
+      <description>Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.
+Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..
+Régression de GUI Depuis 3 jours je bloque sur une regression des NSScrollView.
+Après avoir épluché les forums officiels d&amp;rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.</description>
     </item>
     
   </channel>

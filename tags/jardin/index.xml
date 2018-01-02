@@ -2,45 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jardin on itamago</title>
-    <link>https://www.itamago.com/tags/jardin/index.xml</link>
+    <link>https://www.itamago.com/tags/jardin/</link>
     <description>Recent content in Jardin on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <atom:link href="https://www.itamago.com/tags/jardin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-    <item>
-      <title>Hexagonal Grids</title>
-      <link>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</link>
-      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</guid>
-      <description>&lt;p&gt;Nouveau projet perso en cours : jeu de stratégie héxagonal.&lt;/p&gt;
-
-&lt;p&gt;Un site fantastique présentant la partie technique héxagonale : &lt;a href=&#34;https://www.redblobgames.com/grids/hexagons/&#34;&gt;RedBlobGames&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
+	<atom:link href="https://www.itamago.com/tags/jardin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Serre à permaculture</title>
-      <link>https://www.itamago.com/post/2017-06-17-serre-permaculture%20copy/</link>
+      <link>https://www.itamago.com/post/2017-06-17-serre-permaculture/</link>
       <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2017-06-17-serre-permaculture%20copy/</guid>
-      <description>&lt;p&gt;En cherchant des aménagements pour mon jardin, j&amp;rsquo;ai découvert le site d&amp;rsquo;une association qui tente de développer des techniques open-source pour le recyclage ou la culture.&lt;/p&gt;
-
-&lt;p&gt;Le site de l&amp;rsquo;association : &lt;a href=&#34;https://myfood.eu/&#34;&gt;MyFood&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/fi728-dgViU&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !&lt;/p&gt;
-
-&lt;p&gt;Voici un exemple de toute petite serre:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/WeUh74s2m30&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt;
-</description>
+      <guid>https://www.itamago.com/post/2017-06-17-serre-permaculture/</guid>
+      <description>En cherchant des aménagements pour mon jardin, j&amp;rsquo;ai découvert le site d&amp;rsquo;une association qui tente de développer des techniques open-source pour le recyclage ou la culture.
+Le site de l&amp;rsquo;association : MyFood
+ Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !</description>
     </item>
     
   </channel>
