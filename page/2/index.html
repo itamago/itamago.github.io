@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://www.itamago.com/images/pexels-photo1.jpg" />
 
 
-  <meta property="og:updated_time" content="2016-01-01T00:00:00&#43;00:00"/>
+  <meta property="og:updated_time" content="2016-01-17T00:00:00&#43;00:00"/>
 
 
 
@@ -146,7 +146,127 @@
   <header>
     
       <div class="entry-image-index">
-		  <a href="/post/2015-12-24-noel-bd/" title="Qui dit Noël, dit BD !"><img src="/images/bandes-dessinees.jpg" alt="Qui dit Noël, dit BD !"></a>
+		  <a href="/post/2016-01-17-imgui-investigations/" title="Une GUI simple et efficace"><img src="/images/banner_imgui-investigations.jpg" alt="Une GUI simple et efficace"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2016-01-17 00:00:00 &#43;0000 &#43;0000">2016-01-17</time></span>
+        
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        Lecture ~3 minutes
+      </span>
+    </div>
+    
+	<h1 class="entry-title"><a href="/post/2016-01-17-imgui-investigations/" rel="bookmark" title="Une GUI simple et efficace" itemprop="url">Une GUI simple et efficace</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    
+
+<p>Après de longues investigations le mois dernier, j&rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : <a href="https://github.com/ocornut/imgui">ImGUI</a>.</p>
+
+<h2 id="ce-qui-a-guidé-mon-choix">Ce qui a guidé mon choix</h2>
+
+<p>J&rsquo;ai décidé de conserver <strong>Cocoa</strong> pour l&rsquo;éditeur, car il est déjà développé et requiert peu d&rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&rsquo;est marginal). Pas de raison particulière de recoder l&rsquo;éditeur, il fonctionne très bien comme ça.</p>
+
+<p>Mais comme mon éditeur n&rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</p>
+
+<h2 id="première-option-libnui-http-libnui-github-io-nui3">Première option : <a href="http://libnui.github.io/nui3/">LibNUI</a></h2>
+
+<p>J&rsquo;ai d&rsquo;abord pensé à utiliser <a href="http://libnui.github.io/nui3/">LibNUI</a>, une belle librairie graphique créée par mon pote Sébastien Métrot.</p>
+
+<figure class="half">
+    <a href="/images/gui/libnui-bleepsynth.jpg"><img src="/images/gui/libnui-bleepsynth.jpg" alt=""></a>
+    <a href="/images/gui/libnui-card.jpg"><img src="/images/gui/libnui-card.jpg" alt=""></a>
+</figure>
+
+<p>Sa librairie est complête et embarque plein de tools intéressants. Elle permet de réaliser n&rsquo;importe quelle application 2D, aussi complexe soit elle. L&rsquo;intégralité du rendu est effectué en 3D. Elle est totalement cross-platform.</p>
+
+<p>Mais elle est plutôt adaptée à des applications complexes et puissantes. Dans mon cas, je veux juste pouvoir debugger efficacement sur iOS, pas besoin de fioriture.</p>
+
+<h2 id="seconde-option-nanogui-https-github-com-wjakob-nanogui">Seconde option : <a href="https://github.com/wjakob/nanogui">NanoGUI</a></h2>
+
+<p>Puis, j&rsquo;ai testé <a href="https://github.com/wjakob/nanogui">NanoGUI</a> basé sur <a href="https://github.com/memononen/nanovg">NanoVG</a>.</p>
+
+<p>Un rendu vraiment très sexy !</p>
+
+<figure>
+    <a href="/images/gui/nanogui-screenshot.jpg"><img src="/images/gui/nanogui-screenshot.jpg" alt=""></a>
+</figure>
+
+<p>Cette librairie est compacte (peu de fichiers à embarquer) et moins complexe à intégrer dans un moteur existant que LibNUI. Ça se rapprochait déjà plus de ce que je recherche.</p>
+
+<p>J&rsquo;ai commencé l&rsquo;intégration de NanoGUI dans mon moteur, et j&rsquo;ai déprimé sur le couplage avec OpenGL&hellip; Le coût de portage de librairie sur METAL n&rsquo;est pas négligeable si on veut faire ça bien. Et je n&rsquo;ai malheureusement pas de temps à consacrer à ça pour le moment.</p>
+
+<p>Autre point négatif, c&rsquo;est son emprunte CPU et GPU. Pour une librairie que j&rsquo;utiliserai en debug, c&rsquo;est cher payé.</p>
+
+<p>Donc je la garde dans un coin de ma tête, pour plus tard.</p>
+
+<h2 id="troisième-option-imgui-https-github-com-ocornut-imgui">Troisième option : <a href="https://github.com/ocornut/imgui">ImGUI</a></h2>
+
+<p>Finalement, j&rsquo;ai découvert <a href="https://github.com/ocornut/imgui">ImGUI</a>.</p>
+
+<p>Je vais être très franc et peser mes mots :</p>
+
+<ul>
+<li>le rendu est vraiment <strong>spartiate</strong> (certains diront <em>moche</em>),</li>
+</ul>
+
+<p>Mais cette lib est :</p>
+
+<ul>
+<li>tellement <strong>simple à utiliser</strong>,</li>
+<li>tellement <strong>facile à intégrer</strong> dans un moteur existant,</li>
+<li>tellement <strong>compacte</strong> dans son design et dans son implémentation,</li>
+<li>tellement <strong>légère</strong> en CPU et GPU,</li>
+<li>tellement <strong>lisible</strong> et <strong>modifiable</strong></li>
+</ul>
+
+<p>Qu&rsquo;il est <strong>impossible</strong> d&rsquo;y rester insensible !</p>
+
+<p>Ça m&rsquo;a pris une heure de l&rsquo;intégrer dans mon moteur en METAL :</p>
+
+<ul>
+<li>quelques buffers GPU à créer,</li>
+<li>une seule texture,</li>
+<li>un seul shader,</li>
+<li>et une redirection d&rsquo;input iOS/OSX.</li>
+</ul>
+
+<p><strong>Hop</strong> le tour est joué.<br />
+Et le rendu est parfaitement <strong>identique</strong> sur OSX et iOS.<br />
+Jouissif.</p>
+
+<p>Voici quelques captures d&rsquo;écran sur OSX avec un layout 3D d&rsquo;iPhone 5. On y voit mes scènes de benchmark, la fenêtre de démo d&rsquo;ImGUI, et une petite fenêtre de profiling créée en quelques minutes.</p>
+
+<figure class="half">
+    <a href="/images/gui/imgui-with-EaseFX-0.jpg"><img src="/images/gui/imgui-with-EaseFX-0.jpg" alt=""></a>
+    <a href="/images/gui/imgui-with-EaseFX-1.jpg"><img src="/images/gui/imgui-with-EaseFX-1.jpg" alt=""></a>
+</figure>
+
+<p>Et voici le shader ImGUI, vraiment gratos.<br />
+À gauche la version classique, et à droite la version préprocessée.</p>
+
+<figure>
+    <a href="/images/gui/imgui-with-EaseFX-2.jpg"><img src="/images/gui/imgui-with-EaseFX-2.jpg" alt=""></a>
+</figure>
+
+<p>Enfantin.</p>
+
+<p>Comme je le disais, certain peuvent rester bloquer sur l&rsquo;aspect spartiate de la GUI. Mais n&rsquo;oublions pas les objectifs initiaux : <strong>le debug</strong> et <strong>la perf</strong>.</p>
+
+<p>Et qu&rsquo;on se rassure, une nouvelle version poindra probablement bientôt le bout de son nez avec un design plus <em>moderne</em>. Espérons qu&rsquo;elle conservera sa faible emprunte et restera aussi simple à utiliser.</p>
+
+  </div>
+</article>
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/post/2015-12-24-noel-bd/" title="Qui dit Noël, dit BD !"><img src="/images/banner_bandes-dessinees.jpg" alt="Qui dit Noël, dit BD !"></a>
       </div>
     
     <div class="entry-meta">
@@ -211,7 +331,7 @@ Ce n&rsquo;est pas une BD mainstream, clairement pour Adultes car Bourgeon en es
   <header>
     
       <div class="entry-image-index">
-		  <a href="/post/2015-12-20-psycho-pass/" title="Nouvel anime : Psycho-Pass"><img src="/images/psycho-pass.jpg" alt="Nouvel anime : Psycho-Pass"></a>
+		  <a href="/post/2015-12-20-psycho-pass/" title="Nouvel anime : Psycho-Pass"><img src="/images/banner_psycho-pass.jpg" alt="Nouvel anime : Psycho-Pass"></a>
       </div>
     
     <div class="entry-meta">
@@ -249,7 +369,7 @@ Disponible en 720p, il va combler quelques soirées de Noël, pendant que les en
   <header>
     
       <div class="entry-image-index">
-		  <a href="/post/2015-12-05-gui-cpp/" title="Regressions de GUI sur OSX"><img src="/images/xcode-programming.jpg" alt="Regressions de GUI sur OSX"></a>
+		  <a href="/post/2015-12-05-gui-cpp/" title="Regressions de GUI sur OSX"><img src="/images/banner_xcode.jpg" alt="Regressions de GUI sur OSX"></a>
       </div>
     
     <div class="entry-meta">
@@ -357,7 +477,7 @@ J&rsquo;ai une longue nuit qui s&rsquo;annonce !</p>
   <header>
     
       <div class="entry-image-index">
-		  <a href="/post/2015-11-28-envie-de-dessin/" title="Envie de dessin"><img src="/images/astropad_ipad.jpg" alt="Envie de dessin"></a>
+		  <a href="/post/2015-11-28-envie-de-dessin/" title="Envie de dessin"><img src="/images/banner_astropad_ipad.jpg" alt="Envie de dessin"></a>
       </div>
     
     <div class="entry-meta">
@@ -399,7 +519,7 @@ J&rsquo;ai la tête plein d&rsquo;idées, de bandes dessinées, d&rsquo;histoire
   <header>
     
       <div class="entry-image-index">
-		  <a href="/post/2015-11-27-first-post/" title="Le blog est né !"><img src="/images/cigogne.jpg" alt="Le blog est né !"></a>
+		  <a href="/post/2015-11-27-first-post/" title="Le blog est né !"><img src="/images/banner_cigogne.jpg" alt="Le blog est né !"></a>
       </div>
     
     <div class="entry-meta">

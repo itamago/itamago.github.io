@@ -9,17 +9,28 @@
     <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
     <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.itamago.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Black Eyed Peas sont de retour</title>
+      <link>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <guid>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</guid>
+      <description>Les BEP sont de retour avec un titre old school.
+Sans aucune hésitation, c&amp;rsquo;est le meilleur son en ce début d&amp;rsquo;année 2018.
+ </description>
+    </item>
+    
+    <item>
       <title>Faille macOS 0-day</title>
-      <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</link>
+      <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day/</guid>
+      <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</guid>
       <description>Une faille macOS active sur toutes les version depuis 2002.
 Le codeur est très pédagogue, il y va progressivement, et même un novice en sécurité pourra comprendre comment il s&amp;rsquo;y est pris.
 Une lecture à ne pas manquer : IOHIDeous</description>
