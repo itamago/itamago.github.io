@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Politique on itamago</title>
+    <title>politique on itamago</title>
     <link>https://www.itamago.com/tags/politique/</link>
-    <description>Recent content in Politique on itamago</description>
+    <description>Recent content in politique on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     
@@ -18,12 +16,11 @@
       <title>Politique</title>
       <link>https://www.itamago.com/politique/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/politique/</guid>
-      <description> Vous trouverez ici des textes ou vidéos liés à la polique.
+      <description>Vous trouverez ici des textes ou vidéos liés à la polique.
 Je vous donne juste des pistes à explorer, sans les commenter.
-Guerre en Syrie : témoignage d&amp;rsquo;un Directeur de la DGSE Alain Juillet a dirigé de la DGSE et il a mis en place l&amp;rsquo;intelligence économique au sein du SGDN. Son avis sur l&amp;rsquo;origine de la guerre en Syrie vaut la pein d&amp;rsquo;être écouté.
- </description>
+ Guerre en Syrie : témoignage d&amp;rsquo;un Directeur de la DGSE Alain Juillet a dirigé de la DGSE et il a mis en place l&amp;rsquo;intelligence économique au sein du SGDN. Son avis sur l&amp;rsquo;origine de la guerre en Syrie vaut la pein d&#39;être écouté.</description>
     </item>
     
   </channel>

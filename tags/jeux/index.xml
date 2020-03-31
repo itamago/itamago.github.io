@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jeux on itamago</title>
+    <title>jeux on itamago</title>
     <link>https://www.itamago.com/tags/jeux/</link>
-    <description>Recent content in Jeux on itamago</description>
+    <description>Recent content in jeux on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Sun, 31 Jan 2016 00:00:00 +0000</lastBuildDate>
     
@@ -18,13 +16,12 @@
       <title>Le ravissant Unravel</title>
       <link>https://www.itamago.com/post/2016-01-31-unravel/</link>
       <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-01-31-unravel/</guid>
       <description>Un jeu qui me donne envie de sortir des billets du portefeuille.
 Ce jeu est beau et doux. Techniquement, on a beaucoup de choses à dire aussi. Mais c&amp;rsquo;est la direction artistique qui est fabuleuse, car le jeu semble homogène de bout en bout.
 J&amp;rsquo;ai hâte de le tester !
-Site officiel
- </description>
+Site officiel</description>
     </item>
     
   </channel>

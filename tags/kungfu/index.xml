@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kungfu on itamago</title>
+    <title>KungFu on itamago</title>
     <link>https://www.itamago.com/tags/kungfu/</link>
-    <description>Recent content in Kungfu on itamago</description>
+    <description>Recent content in KungFu on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
@@ -18,24 +16,22 @@
       <title>Kung-Fu</title>
       <link>https://www.itamago.com/kung-fu/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/kung-fu/</guid>
-      <description>  Vous mangez chaque jour.
+      <description>Vous mangez chaque jour.
 Vous brossez vos dents chaque jour.
 Il faut s&amp;rsquo;entrainer chaque jour.
- Echauffement basique Voici une vidéo de 5 minutes qui exhibe quelques mouvements à effectuer à chaque entrainements.
- Remerciements : je remercie le groupe EnergieForme pour m&#39;avoir laisser filmer dans leur salle. </description>
+  Echauffement basique Voici une vidéo de 5 minutes qui exhibe quelques mouvements à effectuer à chaque entrainements.</description>
     </item>
     
     <item>
       <title>Maths et KungFu</title>
       <link>https://www.itamago.com/post/2016-06-18-maths-et-kungfu/</link>
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-06-18-maths-et-kungfu/</guid>
       <description>J&amp;rsquo;ai enfin pris le temps de remplir deux pages concernant les mathématiques et le KungFu:
- Page des Mathématiques Page du KungFu  Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu. Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)
- </description>
+ Page des Mathématiques Page du KungFu  Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu. Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)</description>
     </item>
     
   </channel>

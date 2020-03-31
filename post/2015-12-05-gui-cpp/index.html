@@ -49,7 +49,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 
 <script src="/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -137,62 +137,41 @@
       </div>
     </header>
     <div class="entry-content">
-      
-
-<p>Plus j&rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.<br />
+      <p>Plus j&rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.<br>
 Les concepts des GUI native d&rsquo;OSX sont véritablement étranges. On s&rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&rsquo;univers Apple et pas très bien testé..</p>
-
 <h2 id="régression-de-gui">Régression de GUI</h2>
-
-<p>Depuis 3 jours je bloque sur une regression des NSScrollView.<br />
+<p>Depuis 3 jours je bloque sur une regression des NSScrollView.<br>
 Après avoir épluché les forums officiels d&rsquo;Apple, stackoverflow, et les forums de developpeurs OSX, je me résigne : la régression est bel est bien présente et impossible de la contourner.</p>
-
-<p>Sans entrer dans le détail, le problème est simple : je veux juste faire mon rendu custom dans une NSView et pouvoir la scroller !<br />
+<p>Sans entrer dans le détail, le problème est simple : je veux juste faire mon rendu custom dans une NSView et pouvoir la scroller !<br>
 Tout fonctionnait parfaitement avec <strong>xcode 6</strong>, et depuis <strong>xcode 7</strong> ça déconne totalement.</p>
-
 <h2 id="gui-qui-fonctionne">GUI qui fonctionne</h2>
-
-<p>Voici un rendu qui fonctionne : l&rsquo;éditeur de TimeLines.<br />
-Les scrollbars fonctionnent, je peux me déplacer à ma guise.
-<figure>
-    <a href="/images/easesdk/Capture_Editor_TimeLines.jpg"><img src="/images/easesdk/Capture_Editor_TimeLines.jpg" alt=""></a>
-</figure></p>
-
+<p>Voici un rendu qui fonctionne : l'éditeur de TimeLines.<br>
+Les scrollbars fonctionnent, je peux me déplacer à ma guise.</p>
+<!-- raw HTML omitted -->
 <h2 id="gui-qui-déconne">GUI qui déconne</h2>
-
-<p>Et voici un rendu qui ne fonctionne plus du tout : l&rsquo;éditeur de passes&hellip;<br />
-Impossible de faire fonctionner ces foutues scrollbars : elles n&rsquo;apparaissent pas.<br />
-Pourtant tout fonctionnait avec <strong>xcode 6</strong> !
-<figure>
-    <a href="/images/easesdk/Capture_Editor_Chart.jpg"><img src="/images/easesdk/Capture_Editor_Chart.jpg" alt=""></a>
-</figure></p>
-
-<p>C&rsquo;est quand même incroyable de devoir me taper le debug des produits Apple.<br />
+<p>Et voici un rendu qui ne fonctionne plus du tout : l'éditeur de passes&hellip;<br>
+Impossible de faire fonctionner ces foutues scrollbars : elles n&rsquo;apparaissent pas.<br>
+Pourtant tout fonctionnait avec <strong>xcode 6</strong> !</p>
+<!-- raw HTML omitted -->
+<p>C&rsquo;est quand même incroyable de devoir me taper le debug des produits Apple.<br>
 C&rsquo;est la société la plus riche au monde et elle n&rsquo;est pas capable de s&rsquo;offrir des tests de non-régression digne de ce nom&hellip;</p>
-
-<h2 id="utiliser-un-système-de-gui-alternatif">Utiliser un système de GUI alternatif ?</h2>
-
+<h2 id="utiliser-un-système-de-gui-alternatif-">Utiliser un système de GUI alternatif ?</h2>
 <p>Donc ce soir j&rsquo;ai passé un peu de temps à examiner les GUI alternatives.</p>
-
-<p>D&rsquo;abord, j&rsquo;ai été séduit par les GUI de <a href="http://www.blender.org/">Blender</a>. C&rsquo;est très joli, codé en C++, mais impossible de séparer le code de l&rsquo;éditeur.</p>
-
+<p>D&rsquo;abord, j&rsquo;ai été séduit par les GUI de <a href="http://www.blender.org/">Blender</a>. C&rsquo;est très joli, codé en C++, mais impossible de séparer le code de l'éditeur.</p>
 <p>Ensuite, j&rsquo;ai trouvé d&rsquo;autres GUI cross-platform qui semblent mûres aujourd&rsquo;hui :</p>
-
 <ul>
-<li><a href="http://www.qt.io/">Qt</a><br />
-Cette librairie vieille de 20 ans s&rsquo;est transformée à plusieurs reprises et a vraiment bien évolué. Elle est flexible, puissante, et elle tourne sur toutes les plateformes !<br />
+<li><a href="http://www.qt.io/">Qt</a><br>
+Cette librairie vieille de 20 ans s&rsquo;est transformée à plusieurs reprises et a vraiment bien évolué. Elle est flexible, puissante, et elle tourne sur toutes les plateformes !<br>
 Mais c&rsquo;est une telle usine à gaz que les samples-codes m&rsquo;ont vite fait fuir. Pas le temps d&rsquo;apprendre à me servir d&rsquo;un engine complet pour faire des GUIs.</li>
-<li><a href="https://github.com/wjakob/nanogui">NanoGUI</a><br />
-Cette lib se désigne comme <strong><em>Minimalistic GUI library for OpenGL</em></strong>. C&rsquo;est clairement prometeur, et certaines features me plaisent beaucoup telles que le support du C++11, l&rsquo;utilisation de lambdas, et des widgets de tracé de graphes.<br />
+<li><a href="https://github.com/wjakob/nanogui">NanoGUI</a><br>
+Cette lib se désigne comme <strong><em>Minimalistic GUI library for OpenGL</em></strong>. C&rsquo;est clairement prometeur, et certaines features me plaisent beaucoup telles que le support du C++11, l&rsquo;utilisation de lambdas, et des widgets de tracé de graphes.<br>
 Je vais la tester ce soir.</li>
-<li><a href="https://github.com/sp4cerat/Game-GUI">Game-GUI</a><br />
-<strong>Mon coup de coeur</strong>. Très simple, et réalise la performance d&rsquo;être codé en 2000 lignes de C++.  Elle propose les features classique (skinning, widgets standards, etc), et cela fait d&rsquo;elle un excellente candidate pour intégrer mon moteur en tant que module de GUI pour METAL. Cerise sur le gateau : elle est en licence MIT.</li>
+<li><a href="https://github.com/sp4cerat/Game-GUI">Game-GUI</a><br>
+<strong>Mon coup de coeur</strong>. Très simple, et réalise la performance d'être codé en 2000 lignes de C++.  Elle propose les features classique (skinning, widgets standards, etc), et cela fait d&rsquo;elle un excellente candidate pour intégrer mon moteur en tant que module de GUI pour METAL. Cerise sur le gateau : elle est en licence MIT.</li>
 </ul>
-
 <h2 id="et-finalement">Et finalement&hellip;</h2>
-
-<p>Je vais poursuivre encore un peu avec Cocoa. Je laisse une chance à Apple de se rattrapper avec le mise à jour de xcode qui ne saura tarder.<br />
-Et en attendant, je vais tester NanoGUI et Game-GUI.<br />
+<p>Je vais poursuivre encore un peu avec Cocoa. Je laisse une chance à Apple de se rattrapper avec le mise à jour de xcode qui ne saura tarder.<br>
+Et en attendant, je vais tester NanoGUI et Game-GUI.<br>
 J&rsquo;ai une longue nuit qui s&rsquo;annonce !</p>
 
       <footer class="entry-meta">

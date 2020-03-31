@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on itamago</title>
+    <title>code on itamago</title>
     <link>https://www.itamago.com/tags/code/</link>
-    <description>Recent content in Code on itamago</description>
+    <description>Recent content in code on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
@@ -16,20 +14,19 @@
     
     <item>
       <title>Black Eyed Peas sont de retour</title>
-      <link>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</link>
+      <link>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back-copy/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</guid>
+      
+      <guid>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back-copy/</guid>
       <description>Les BEP sont de retour avec un titre old school.
-Sans aucune hésitation, c&amp;rsquo;est le meilleur son en ce début d&amp;rsquo;année 2018.
- </description>
+Sans aucune hésitation, c&amp;rsquo;est le meilleur son en ce début d&amp;rsquo;année 2018.</description>
     </item>
     
     <item>
       <title>Faille macOS 0-day</title>
       <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</guid>
       <description>Une faille macOS active sur toutes les version depuis 2002.
 Le codeur est très pédagogue, il y va progressivement, et même un novice en sécurité pourra comprendre comment il s&amp;rsquo;y est pris.
@@ -40,21 +37,21 @@ Une lecture à ne pas manquer : IOHIDeous</description>
       <title>Hexagonal Grids</title>
       <link>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</link>
       <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</guid>
       <description>Nouveau projet perso en cours : jeu de stratégie héxagonal.
 Un site fantastique présentant la partie technique héxagonale : RedBlobGames
-Quelques captures d&amp;rsquo;écran dans pas longtemps.</description>
+Quelques captures d&#39;écran dans pas longtemps.</description>
     </item>
     
     <item>
       <title>Une GUI simple et efficace</title>
       <link>https://www.itamago.com/post/2016-01-17-imgui-investigations/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-01-17-imgui-investigations/</guid>
       <description>Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : ImGUI.
-Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.
+Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&#39;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&#39;éditeur, il fonctionne très bien comme ça.
 Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</description>
     </item>
     
@@ -62,7 +59,7 @@ Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il
       <title>Regressions de GUI sur OSX</title>
       <link>https://www.itamago.com/post/2015-12-05-gui-cpp/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-05-gui-cpp/</guid>
       <description>Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.
 Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..

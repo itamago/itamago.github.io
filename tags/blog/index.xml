@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on itamago</title>
+    <title>blog on itamago</title>
     <link>https://www.itamago.com/tags/blog/</link>
-    <description>Recent content in Blog on itamago</description>
+    <description>Recent content in blog on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Fri, 27 Nov 2015 00:00:00 +0000</lastBuildDate>
     
@@ -18,13 +16,13 @@
       <title>Le blog est né !</title>
       <link>https://www.itamago.com/post/2015-11-27-first-post/</link>
       <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-11-27-first-post/</guid>
       <description>Aujourd&amp;rsquo;hui le blog est né !
 Ce qui a guidé mon choix J&amp;rsquo;ai choisi un système de blog statique :
  pas de base de données, écriture des textes en markdown, facile à maintenir, génération des pages en ligne de commande  Simple et rapide :)
  “La simplicité est la sophistication suprême.” - Leonardo Da Vinci
- L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
+  L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
     </item>
     
   </channel>

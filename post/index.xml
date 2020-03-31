@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on itamago</title>
@@ -6,30 +6,38 @@
     <description>Recent content in Posts on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.itamago.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Confinement COVID - Semaine 3</title>
+      <link>https://www.itamago.com/post/2020-03-31-covid-confinement-week-3/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/post/2020-03-31-covid-confinement-week-3/</guid>
+      <description>Avec le confinement qui se prolonge en France, pas d&amp;rsquo;autre choix que de resister au COVID en s&amp;rsquo;entrainant à la maison !
+Je reconnais avoir énormément de chance de pouvoir m&amp;rsquo;entrainer chez moi.. mais ça ne remplacera jamais les entrainements collectifs qui sont 1000 fois plus motivants !
+Sinon, je recommence à lire d&amp;rsquo;anciennes BD pour m&#39;évader un peu aussi</description>
+    </item>
+    
+    <item>
       <title>Black Eyed Peas sont de retour</title>
-      <link>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</link>
+      <link>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back-copy/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back/</guid>
+      
+      <guid>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back-copy/</guid>
       <description>Les BEP sont de retour avec un titre old school.
-Sans aucune hésitation, c&amp;rsquo;est le meilleur son en ce début d&amp;rsquo;année 2018.
- </description>
+Sans aucune hésitation, c&amp;rsquo;est le meilleur son en ce début d&amp;rsquo;année 2018.</description>
     </item>
     
     <item>
       <title>Faille macOS 0-day</title>
       <link>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2018-01-02-macos-vulnerability-0day-copy/</guid>
       <description>Une faille macOS active sur toutes les version depuis 2002.
 Le codeur est très pédagogue, il y va progressivement, et même un novice en sécurité pourra comprendre comment il s&amp;rsquo;y est pris.
@@ -40,68 +48,78 @@ Une lecture à ne pas manquer : IOHIDeous</description>
       <title>Hexagonal Grids</title>
       <link>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</link>
       <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2017-12-09-hexagonal-grids-resources/</guid>
       <description>Nouveau projet perso en cours : jeu de stratégie héxagonal.
 Un site fantastique présentant la partie technique héxagonale : RedBlobGames
-Quelques captures d&amp;rsquo;écran dans pas longtemps.</description>
+Quelques captures d&#39;écran dans pas longtemps.</description>
+    </item>
+    
+    <item>
+      <title>Maths - Groupes</title>
+      <link>https://www.itamago.com/post/2017-03-06-maths-groupes/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/post/2017-03-06-maths-groupes/</guid>
+      <description>I) Rappels 1) Groupes a/ Définition $$ \left(G,\ast\right);est;un;groupe;\Leftrightarrow\ $$
+G,estungroupe⇔G≠∅,avecloidecompositioninterneassociativeadmetunélémentneutree∀x,∃unsymétriquex-12) Sous-groupes 3) Morphisme de groupes 4) Sous-groupe monogène, sous-groupe cyclique 5) Produit de deux groupes  II) Sous-groupe engendré par une partie $$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$  donne: $$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
+On peut aussi écrire en &amp;ldquo;inline&amp;rdquo; : $a^n + b^2 = c^2$.
+Ex: Si $a \ne 0$, alors il y a deux solutions à \(ax^2 + bx + c = 0\) et elles sont:</description>
     </item>
     
     <item>
       <title>Serre à permaculture</title>
       <link>https://www.itamago.com/post/2017-06-17-serre-permaculture/</link>
       <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2017-06-17-serre-permaculture/</guid>
       <description>En cherchant des aménagements pour mon jardin, j&amp;rsquo;ai découvert le site d&amp;rsquo;une association qui tente de développer des techniques open-source pour le recyclage ou la culture.
 Le site de l&amp;rsquo;association : MyFood
- Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !</description>
+Certains concepts sont complexes à mettre en oeuvre pour un particuliers, mais il y a pas mal de tips pour créer une serre à moindre coût et ainsi produire des fruits / légumes toute l&amp;rsquo;année. C&amp;rsquo;est quand même plus fun qu&amp;rsquo;avoir un simple potager qui dure 4 mois dans l&amp;rsquo;année !</description>
     </item>
     
     <item>
       <title>Maths et KungFu</title>
       <link>https://www.itamago.com/post/2016-06-18-maths-et-kungfu/</link>
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-06-18-maths-et-kungfu/</guid>
       <description>J&amp;rsquo;ai enfin pris le temps de remplir deux pages concernant les mathématiques et le KungFu:
- Page des Mathématiques Page du KungFu  Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu. Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)
- </description>
+ Page des Mathématiques Page du KungFu  Vous y trouverez des cours de maths, ainsi qu&amp;rsquo;une petite video d&amp;rsquo;entrainement de KungFu. Je vais alimenter ces pages régulièrement (et quand j&amp;rsquo;ai le temps!)</description>
     </item>
     
     <item>
       <title>Le ravissant Unravel</title>
       <link>https://www.itamago.com/post/2016-01-31-unravel/</link>
       <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-01-31-unravel/</guid>
       <description>Un jeu qui me donne envie de sortir des billets du portefeuille.
 Ce jeu est beau et doux. Techniquement, on a beaucoup de choses à dire aussi. Mais c&amp;rsquo;est la direction artistique qui est fabuleuse, car le jeu semble homogène de bout en bout.
 J&amp;rsquo;ai hâte de le tester !
-Site officiel
- </description>
+Site officiel</description>
     </item>
     
     <item>
       <title>Découverte : Kim Jung Gi</title>
       <link>https://www.itamago.com/post/2016-01-24-kim-jung-gi/</link>
       <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-01-24-kim-jung-gi/</guid>
       <description>Rien à voir avec la Corée du Nord !
 Il s&amp;rsquo;agit d&amp;rsquo;un dessinateur extrêmement talentueux que j&amp;rsquo;ai tardivement découvert.
 Quelques dessins pour donner une idée Ces images sont gracieusement empruntées sur le web (Google image) pour vous donner un aperçu de son talent.
-      C&amp;rsquo;est magnifique. Les détails sont incroyablement subtils : regardez comme il trace un visage expressif avec quelques lignes seulement, sans rajouter de détails ou d&amp;rsquo;ombres.</description>
+C&amp;rsquo;est magnifique. Les détails sont incroyablement subtils : regardez comme il trace un visage expressif avec quelques lignes seulement, sans rajouter de détails ou d&amp;rsquo;ombres. Un coup de pinceau et l&amp;rsquo;image devient vivante.</description>
     </item>
     
     <item>
       <title>Une GUI simple et efficace</title>
       <link>https://www.itamago.com/post/2016-01-17-imgui-investigations/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2016-01-17-imgui-investigations/</guid>
       <description>Après de longues investigations le mois dernier, j&amp;rsquo;ai enfin porté mon choix sur une API de GUI simple et efficace : ImGUI.
-Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&amp;rsquo;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&amp;rsquo;éditeur, il fonctionne très bien comme ça.
+Ce qui a guidé mon choix J&amp;rsquo;ai décidé de conserver Cocoa pour l&#39;éditeur, car il est déjà développé et requiert peu d&amp;rsquo;entretien (sauf quand Apple casse la compatibilité, mais c&amp;rsquo;est marginal). Pas de raison particulière de recoder l&#39;éditeur, il fonctionne très bien comme ça.
 Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</description>
     </item>
     
@@ -109,19 +127,19 @@ Mais comme mon éditeur n&amp;rsquo;est accessible que sur OSX (pas sur iOS), il
       <title>Qui dit Noël, dit BD !</title>
       <link>https://www.itamago.com/post/2015-12-24-noel-bd/</link>
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-24-noel-bd/</guid>
       <description>Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.
 J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !
 Le Tueur (tomes 11, 12, 13) L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.
-Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
+Les auteurs ne cessent de m&#39;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
     </item>
     
     <item>
       <title>Nouvel anime : Psycho-Pass</title>
       <link>https://www.itamago.com/post/2015-12-20-psycho-pass/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-20-psycho-pass/</guid>
       <description>En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)
 Critiques du web Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.
@@ -133,7 +151,7 @@ Aperçu Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 
       <title>Regressions de GUI sur OSX</title>
       <link>https://www.itamago.com/post/2015-12-05-gui-cpp/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-05-gui-cpp/</guid>
       <description>Plus j&amp;rsquo;avance sur le développement de EaseSDK, plus je coince sur des limitations et des bugs de GUI sur OSX.
 Les concepts des GUI native d&amp;rsquo;OSX sont véritablement étranges. On s&amp;rsquo;y fait, surtout au bout de plusieurs années. Mais ça reste vraiment propre à l&amp;rsquo;univers Apple et pas très bien testé..
@@ -145,7 +163,7 @@ Après avoir épluché les forums officiels d&amp;rsquo;Apple, stackoverflow, et
       <title>Court métrage : DBZ Fall of Men</title>
       <link>https://www.itamago.com/post/2015-11-28-video-dbz/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-11-28-video-dbz/</guid>
       <description>Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !
 Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..</description>
@@ -155,7 +173,7 @@ Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a stri
       <title>Envie de dessin</title>
       <link>https://www.itamago.com/post/2015-11-28-envie-de-dessin/</link>
       <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-11-28-envie-de-dessin/</guid>
       <description>Cela fait des mois que j&amp;rsquo;ai envie de me remettre à dessiner.
 À chaque fois que je vois ma fille prendre des crayons de couleur et s&amp;rsquo;appliquer à colorier, ça me donne envie.
@@ -168,13 +186,13 @@ Evidemment, je l&amp;rsquo;ai examiné comme un nouvel objet geek, énorme ipad 
       <title>Le blog est né !</title>
       <link>https://www.itamago.com/post/2015-11-27-first-post/</link>
       <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-11-27-first-post/</guid>
       <description>Aujourd&amp;rsquo;hui le blog est né !
 Ce qui a guidé mon choix J&amp;rsquo;ai choisi un système de blog statique :
  pas de base de données, écriture des textes en markdown, facile à maintenir, génération des pages en ligne de commande  Simple et rapide :)
  “La simplicité est la sophistication suprême.” - Leonardo Da Vinci
- L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
+  L&amp;rsquo;affichage de code source Ce genre de blog est véritablement pratique pour écrire du code.</description>
     </item>
     
   </channel>

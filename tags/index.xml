@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on itamago</title>
@@ -6,101 +6,108 @@
     <description>Recent content in Tags on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Thu, 24 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.itamago.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bd</title>
-      <link>https://www.itamago.com/tags/bd/</link>
-      <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/bd/</guid>
+      <title>covid</title>
+      <link>https://www.itamago.com/tags/covid/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/covid/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://www.itamago.com/tags/blog/</link>
-      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
+      <title>code</title>
       <link>https://www.itamago.com/tags/code/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dessin</title>
-      <link>https://www.itamago.com/tags/dessin/</link>
-      <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/dessin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jardin</title>
-      <link>https://www.itamago.com/tags/jardin/</link>
-      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/jardin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jeux</title>
-      <link>https://www.itamago.com/tags/jeux/</link>
-      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/jeux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kungfu</title>
-      <link>https://www.itamago.com/tags/kungfu/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/kungfu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manga</title>
-      <link>https://www.itamago.com/tags/manga/</link>
-      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
-      <guid>https://www.itamago.com/tags/manga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maths</title>
+      <title>maths</title>
       <link>https://www.itamago.com/tags/maths/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
       <guid>https://www.itamago.com/tags/maths/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Politique</title>
+      <title>jardin</title>
+      <link>https://www.itamago.com/tags/jardin/</link>
+      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/jardin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KungFu</title>
+      <link>https://www.itamago.com/tags/kungfu/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/kungfu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jeux</title>
+      <link>https://www.itamago.com/tags/jeux/</link>
+      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/jeux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dessin</title>
+      <link>https://www.itamago.com/tags/dessin/</link>
+      <pubDate>Sun, 24 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/dessin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politique</title>
       <link>https://www.itamago.com/tags/politique/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/tags/politique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BD</title>
+      <link>https://www.itamago.com/tags/bd/</link>
+      <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/bd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manga</title>
+      <link>https://www.itamago.com/tags/manga/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/manga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.itamago.com/tags/blog/</link>
+      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/tags/blog/</guid>
       <description></description>
     </item>
     

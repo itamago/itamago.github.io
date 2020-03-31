@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Manga on itamago</title>
+    <title>manga on itamago</title>
     <link>https://www.itamago.com/tags/manga/</link>
-    <description>Recent content in Manga on itamago</description>
+    <description>Recent content in manga on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
     
@@ -18,7 +16,7 @@
       <title>Nouvel anime : Psycho-Pass</title>
       <link>https://www.itamago.com/post/2015-12-20-psycho-pass/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-20-psycho-pass/</guid>
       <description>En fait, il n&amp;rsquo;est pas nouveau du tout ! Mais il l&amp;rsquo;est pour moi :)
 Critiques du web Les critiques sont variées, mais cet anime est célèbre et je n&amp;rsquo;ai rien à me mettre sous la dent en ce moment.
@@ -30,7 +28,7 @@ Aperçu Un petit aperçu sur Youtube. Mais mieux vaut regarder les épisodes en 
       <title>Court métrage : DBZ Fall of Men</title>
       <link>https://www.itamago.com/post/2015-11-28-video-dbz/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-11-28-video-dbz/</guid>
       <description>Pour un court métrage effectué avec des moyens réduits, c&amp;rsquo;est vraiment réussi !
 Je n&amp;rsquo;aime pas trop le visage du perso principal qui n&amp;rsquo;a strictement rien à voir avec Trunk, mais il faut être indulgent..</description>

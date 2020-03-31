@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Blog &#8211; itamago</title>
+<title>blog &#8211; itamago</title>
 <meta name="description" content="">
 
     
@@ -14,14 +14,14 @@
 
 
 
-<meta name="twitter:title" content="Blog">
+<meta name="twitter:title" content="blog">
 <meta name="twitter:description" content="blog">
 
 
 
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog">
+<meta property="og:title" content="blog">
 <meta property="og:description" content="blog">
 <meta property="og:url" content="https://www.itamago.com/tags/blog/">
 <meta property="og:site_name" content="itamago">
@@ -52,7 +52,7 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.68.3" />
 
 <script src="/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
@@ -122,7 +122,7 @@
 	  <h2>
             
             
-              Blog
+              blog
             
           </h2>
     </div>
@@ -144,7 +144,7 @@
         
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
-        Lecture ~2 minutes
+        Lecture ~1 minute
       </span>
     </div>
     
@@ -152,85 +152,36 @@
     
   </header>
   <div class="entry-content">
-    
-
-<p>Aujourd&rsquo;hui le blog est né !</p>
-
+    <p>Aujourd&rsquo;hui le blog est né !</p>
 <h2 id="ce-qui-a-guidé-mon-choix">Ce qui a guidé mon choix</h2>
-
 <p>J&rsquo;ai choisi un système de <em>blog statique</em> :</p>
-
 <ul>
 <li>pas de base de données,</li>
 <li>écriture des textes en markdown,</li>
 <li>facile à maintenir,</li>
 <li>génération des pages en ligne de commande</li>
 </ul>
-
 <p>Simple et rapide :)</p>
-
 <blockquote>
 <p>“La simplicité est la sophistication suprême.” - Leonardo Da Vinci</p>
 </blockquote>
-
-<hr />
-
-<h2 id="l-affichage-de-code-source">L&rsquo;affichage de code source</h2>
-
-<p>Ce genre de blog est véritablement pratique pour écrire du <code>code</code>.<br />
-C&rsquo;est mon premier critère de choix.<br />
-Par exemple les <strong>snipets</strong> peuvent s&rsquo;écrire très facilement et le code reste lisible :</p>
-
-<pre><code class="cpp">
-class ALIGN8 Vec2
-{
-    public:
-        // Data
-        union
-        {
-            float   vals[2];
-            struct  { float  x,y; };
-            struct  { float  width,height; };
-            simd2f  v64;
-        };
-
-        // Constructors
-        inline          Vec2        ();
-        inline          Vec2        (const Vec2 &a);
-        inline          Vec2        (const float nx, const float ny);
-
-        // Methods
-                float   Length      ();
-                float   SqLength    ();
-                Vec2 &  Normalize   ();
-        inline  Vec2 &  Multiply    (const Vec2 &);
-};
-
-
-</code></pre>
-
+<hr>
+<h2 id="laffichage-de-code-source">L&rsquo;affichage de code source</h2>
+<p>Ce genre de blog est véritablement pratique pour écrire du <code>code</code>.<br>
+C&rsquo;est mon premier critère de choix.<br>
+Par exemple les <strong>snipets</strong> peuvent s'écrire très facilement et le code reste lisible :</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>Plusieurs langages sont supportés.</p>
-
-<hr />
-
+<hr>
 <h2 id="les-ressources-graphiques">Les ressources graphiques</h2>
-
-<p>Il est aussi très simple d&rsquo;inclure des images ou des vidéos dans ce blog.<br />
+<p>Il est aussi très simple d&rsquo;inclure des images ou des vidéos dans ce blog.<br>
 Quelques lignes suffisent.</p>
-
-<figure class="half">
-    <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt=""></a>
-    <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt=""></a>
-</figure>
-
+<!-- raw HTML omitted -->
 <p>Et une vidéo :</p>
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-
-<hr />
-
+<!-- raw HTML omitted -->
+<hr>
 <h2 id="affichage-de-tables">Affichage de tables</h2>
-
 <table>
 <thead>
 <tr>
@@ -239,32 +190,27 @@ Quelques lignes suffisent.</p>
 <th align="right">Header3</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="left">cell1</td>
 <td align="center">cell2</td>
 <td align="right">cell3</td>
 </tr>
-
 <tr>
 <td align="left">cell4</td>
 <td align="center">cell5</td>
 <td align="right">cell6</td>
 </tr>
-
 <tr>
 <td align="left">cell1</td>
 <td align="center">cell2</td>
 <td align="right">cell3</td>
 </tr>
-
 <tr>
 <td align="left">cell4</td>
 <td align="center">cell5</td>
 <td align="right">cell6</td>
 </tr>
-
 <tr>
 <td align="left">Foot1</td>
 <td align="center">Foot2</td>
@@ -272,31 +218,19 @@ Quelques lignes suffisent.</p>
 </tr>
 </tbody>
 </table>
-
-<hr />
-
+<hr>
 <h2 id="des-boutons">Des boutons</h2>
-
-<div markdown="0" style="text-align: center"><a href="#" class="btn btn-success">Un bouton</a>    <a href="#" class="btn btn-info">Un second bouton</a></div>
-
+<!-- raw HTML omitted -->
 <p>Aussi une boite à remarques :</p>
-
-<div class="notice">Boite à remarques !</div>
-
-<hr />
-
+<!-- raw HTML omitted -->
+<hr>
 <h2 id="support-de-mathjax">Support de MathJax</h2>
-
 <pre><code>$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
 </code></pre>
-
 <p>donne:
 $$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$</p>
-
 <p>On peut aussi écrire en &ldquo;inline&rdquo; :  $a^n + b^2 = c^2$.</p>
-
 <p><strong>Ex</strong>: Si $a \ne 0$, alors il y a deux solutions à \(ax^2 + bx + c = 0\) et elles sont:</p>
-
 <p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
 
   </div>

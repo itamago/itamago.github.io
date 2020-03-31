@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bd on itamago</title>
+    <title>BD on itamago</title>
     <link>https://www.itamago.com/tags/bd/</link>
-    <description>Recent content in Bd on itamago</description>
+    <description>Recent content in BD on itamago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>pacome@itamago.com (Pacôme Danhiez)</managingEditor>
-    <webMaster>pacome@itamago.com (Pacôme Danhiez)</webMaster>
     <copyright>Pacôme DANHIEZ</copyright>
     <lastBuildDate>Thu, 24 Dec 2015 00:00:00 +0000</lastBuildDate>
     
@@ -18,12 +16,12 @@
       <title>Qui dit Noël, dit BD !</title>
       <link>https://www.itamago.com/post/2015-12-24-noel-bd/</link>
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
-      <author>pacome@itamago.com (Pacôme Danhiez)</author>
+      
       <guid>https://www.itamago.com/post/2015-12-24-noel-bd/</guid>
       <description>Comme tous les ans, c&amp;rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&amp;rsquo;année.
 J&amp;rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !
 Le Tueur (tomes 11, 12, 13) L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.
-Les auteurs ne cessent de m&amp;rsquo;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
+Les auteurs ne cessent de m&#39;étonner car ils conservent un niveau d&amp;rsquo;excellence malgré les années qui passent.</description>
     </item>
     
   </channel>
