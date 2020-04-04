@@ -7,22 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Mon, 03 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.itamago.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Maths - Groupes</title>
-      <link>https://www.itamago.com/post/2017-03-06-maths-groupes/</link>
-      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.itamago.com/post/2017-03-06-maths-groupes/</guid>
-      <description>I) Rappels 1) Groupes a/ Définition $$ \left(G,\ast\right);est;un;groupe;\Leftrightarrow\ $$
-G,estungroupe⇔G≠∅,avecloidecompositioninterneassociativeadmetunélémentneutree∀x,∃unsymétriquex-12) Sous-groupes 3) Morphisme de groupes 4) Sous-groupe monogène, sous-groupe cyclique 5) Produit de deux groupes  II) Sous-groupe engendré par une partie $$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$  donne: $$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
-On peut aussi écrire en &amp;ldquo;inline&amp;rdquo; : $a^n + b^2 = c^2$.
-Ex: Si $a \ne 0$, alors il y a deux solutions à \(ax^2 + bx + c = 0\) et elles sont:</description>
-    </item>
     
     <item>
       <title>Mathematiques</title>

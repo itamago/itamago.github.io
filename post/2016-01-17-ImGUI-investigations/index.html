@@ -37,7 +37,6 @@
 
 <link rel="canonical" href="https://www.itamago.com/post/2016-01-17-imgui-investigations/">
 
-
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -143,13 +142,24 @@
 <p>Mais comme mon éditeur n&rsquo;est accessible que sur OSX (pas sur iOS), il me fallait une solution de debug efficace sur les devices mobiles.</p>
 <h2 id="première-option--libnuihttplibnuigithubionui3">Première option : <a href="http://libnui.github.io/nui3/">LibNUI</a></h2>
 <p>J&rsquo;ai d&rsquo;abord pensé à utiliser <a href="http://libnui.github.io/nui3/">LibNUI</a>, une belle librairie graphique créée par mon pote Sébastien Métrot.</p>
-<!-- raw HTML omitted -->
+
+
+<figure class="half">
+	<a href="/images/gui/libnui-bleepsynth.jpg"><img src="/images/gui/libnui-bleepsynth.jpg" alt=""></a>
+	<a href="/images/gui/libnui-card.jpg"><img src="/images/gui/libnui-card.jpg" alt=""></a>
+</figure>
+
 <p>Sa librairie est complête et embarque plein de tools intéressants. Elle permet de réaliser n&rsquo;importe quelle application 2D, aussi complexe soit elle. L&rsquo;intégralité du rendu est effectué en 3D. Elle est totalement cross-platform.</p>
 <p>Mais elle est plutôt adaptée à des applications complexes et puissantes. Dans mon cas, je veux juste pouvoir debugger efficacement sur iOS, pas besoin de fioriture.</p>
 <h2 id="seconde-option--nanoguihttpsgithubcomwjakobnanogui">Seconde option : <a href="https://github.com/wjakob/nanogui">NanoGUI</a></h2>
 <p>Puis, j&rsquo;ai testé <a href="https://github.com/wjakob/nanogui">NanoGUI</a> basé sur <a href="https://github.com/memononen/nanovg">NanoVG</a>.</p>
 <p>Un rendu vraiment très sexy !</p>
-<!-- raw HTML omitted -->
+
+
+<figure>
+	<a href="/images/gui/nanogui-screenshot.jpg"><img src="/images/gui/nanogui-screenshot.jpg" alt=""></a>
+</figure>
+
 <p>Cette librairie est compacte (peu de fichiers à embarquer) et moins complexe à intégrer dans un moteur existant que LibNUI. Ça se rapprochait déjà plus de ce que je recherche.</p>
 <p>J&rsquo;ai commencé l&rsquo;intégration de NanoGUI dans mon moteur, et j&rsquo;ai déprimé sur le couplage avec OpenGL&hellip; Le coût de portage de librairie sur METAL n&rsquo;est pas négligeable si on veut faire ça bien. Et je n&rsquo;ai malheureusement pas de temps à consacrer à ça pour le moment.</p>
 <p>Autre point négatif, c&rsquo;est son emprunte CPU et GPU. Pour une librairie que j&rsquo;utiliserai en debug, c&rsquo;est cher payé.</p>
@@ -180,10 +190,21 @@
 Et le rendu est parfaitement <strong>identique</strong> sur OSX et iOS.<br>
 Jouissif.</p>
 <p>Voici quelques captures d'écran sur OSX avec un layout 3D d&rsquo;iPhone 5. On y voit mes scènes de benchmark, la fenêtre de démo d&rsquo;ImGUI, et une petite fenêtre de profiling créée en quelques minutes.</p>
-<!-- raw HTML omitted -->
+
+
+<figure class="half">
+	<a href="/images/gui/imgui-with-EaseFX-0.jpg"><img src="/images/gui/imgui-with-EaseFX-0.jpg" alt=""></a>
+	<a href="/images/gui/imgui-with-EaseFX-1.jpg"><img src="/images/gui/imgui-with-EaseFX-1.jpg" alt=""></a>
+</figure>
+
 <p>Et voici le shader ImGUI, vraiment gratos.<br>
 À gauche la version classique, et à droite la version préprocessée.</p>
-<!-- raw HTML omitted -->
+
+
+<figure>
+	<a href="/images/gui/imgui-with-EaseFX-2.jpg"><img src="/images/gui/imgui-with-EaseFX-2.jpg" alt=""></a>
+</figure>
+
 <p>Enfantin.</p>
 <p>Comme je le disais, certain peuvent rester bloquer sur l&rsquo;aspect spartiate de la GUI. Mais n&rsquo;oublions pas les objectifs initiaux : <strong>le debug</strong> et <strong>la perf</strong>.</p>
 <p>Et qu&rsquo;on se rassure, une nouvelle version poindra probablement bientôt le bout de son nez avec un design plus <em>moderne</em>. Espérons qu&rsquo;elle conservera sa faible emprunte et restera aussi simple à utiliser.</p>
