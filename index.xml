@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>SublimeText : convertion automatique tabs-to-spaces</title>
+      <link>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</guid>
+      <description>Un truc qui me gène depuis un moment, ce sont les fichiers avec des tabs plutôt que des espaces.
+SublimeText permet d&amp;rsquo;effectuer une conversion manuelle, fichier par fichier, via le petit menu en bas à droite. Mais rien n&amp;rsquo;est proposé pour effectuer ça de manière automatique.
+J&amp;rsquo;ai trouvé un petit script autorisant de faire ça. Il faut créer un fichier ExpandTabsOnSave.py dans le repertoire Packages/user de SublimeText, contenant le code suivant :</description>
+    </item>
+    
+    <item>
       <title>Confinement COVID - Semaine 3</title>
       <link>https://www.itamago.com/post/2020-03-31-covid-confinement-week-3/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -78,7 +89,7 @@ Le site de l&amp;rsquo;association : MyFood
 Vous brossez vos dents chaque jour.
 Il faut s&amp;rsquo;entrainer chaque jour.
   Echauffement basique Voici une vidéo de 5 minutes qui exhibe quelques mouvements à effectuer à chaque entrainements.
- Remerciements : je remercie le groupe EnergieForme pour m&#39;avoir laisser filmer dans leur salle. </description>
+ Remerciements : je remercie le groupe EnergieForme pour m&#39;avoir laisser filmer dans leur salle.  </description>
     </item>
     
     <item>
@@ -89,7 +100,7 @@ Il faut s&amp;rsquo;entrainer chaque jour.
       <guid>https://www.itamago.com/mathematiques/</guid>
       <description>Ci-dessous, vous trouverez des documents liés aux mathématiques.
 Cours de maths Voici des résumés de cours de mathématiques, niveau prépa. Ces résumés sont courts et démystifieront la plupart des cours indigestes qu&amp;rsquo;on peut ingurgiter en classe préparatoire ou license de maths !
-Cliquez individuellement sur les liens pour visualiser les fichiers PDF dans votre navigateur, ou bien téléchargez tous les cours en cliquant sur le bouton en bas de page. {: .</description>
+Cliquez individuellement sur les liens pour visualiser les fichiers PDF dans votre navigateur, ou bien téléchargez tous les cours en cliquant sur le bouton en bas de page.    Groupes Anneaux Calcul Matriciel Compacité Complétude Dualité Connexité Par Arcs Endomorphisme Euclidien et Hermitien Espaces Préhilbertiens Complexes Espaces Préhilbertiens Réels Espaces Vectoriels Espaces Vectoriels Normés Topologie - Espace Vectoriel Normé Formes Quadratiques Reduction d&amp;rsquo;Endomorphisme Reduction d&amp;rsquo;Endomorphisme Autoadjoint Reduction d&amp;rsquo;Endomorphisme en Dimension Finie Espace de Sobolev en Dimension 1 Continuité et Limite Convergence Uniforme Fonction Réelle de Variable Réelle Fonctions Intégrales Fonctions de Plusieurs Variables Fonction Vectorielle à Variable Réelle Intégrales Sur un Intervalle Espaces de Lebesgue Probabilités Suites Réelles Séries - Généralites Séries Entières Séries de Fonctions Séries de Fourier Séries à Termes Positifs Séries à Termes dans un Espace de Banach Solution Variationnelle des Problèmes aux Limites Elliptiques Intégrales et Suites de Fonctions - Intégrales Avec Parametre Theorie de la Mesure   Télécharger tous les cours (22 MB) </description>
     </item>
     
     <item>

@@ -173,6 +173,45 @@
   <header>
     
       <div class="entry-image-index">
+		  <a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" title="SublimeText : convertion automatique tabs-to-spaces"><img src="/images/banner_xcode.jpg" alt="SublimeText : convertion automatique tabs-to-spaces"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2020-04-05 00:00:00 &#43;0000 UTC">2020-04-05</time></span>
+        
+        
+    </div>
+    
+	<h1 class="entry-title"><a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" rel="bookmark" title="SublimeText : convertion automatique tabs-to-spaces" itemprop="url">SublimeText : convertion automatique tabs-to-spaces</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>Un truc qui me gène depuis un moment, ce sont les fichiers avec des tabs plutôt que des espaces.</p>
+<p>SublimeText permet d&rsquo;effectuer une conversion manuelle, fichier par fichier, via le petit menu en bas à droite. Mais rien n&rsquo;est proposé pour effectuer ça de manière automatique.</p>
+<p>J&rsquo;ai trouvé un petit script autorisant de faire ça. Il faut créer un fichier <code>ExpandTabsOnSave.py</code> dans le repertoire Packages/user de SublimeText, contenant le code suivant :</p>
+<pre><code>import sublime, sublime_plugin, os
+
+class ExpandTabsOnSave(sublime_plugin.EventListener):
+  # Run ST's 'expand_tabs' command when saving a file
+  def on_pre_save(self, view):
+    if view.settings().get('expand_tabs_on_save') == 1:
+      view.window().run_command('expand_tabs')
+</code></pre><p>Ensuite, on peut utiliser cette option dans un <code>Project</code> SublimeText :</p>
+<pre><code>&quot;settings&quot;: {
+    &quot;expand_tabs_on_save&quot;: true
+}
+</code></pre><p>ou bien au global dans le fichier de <code>Settings</code> :</p>
+<pre><code>&quot;expand_tabs_on_save&quot;: true
+</code></pre><p>And voilà !</p>
+
+  </div>
+</article>
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
 		  <a href="/post/2020-03-31-covid-confinement-week-3/" title="Confinement COVID - Semaine 3"><img src="/images/banner_home_training.jpg" alt="Confinement COVID - Semaine 3"></a>
       </div>
     
@@ -341,36 +380,6 @@ Je vais alimenter ces pages régulièrement (et quand j&rsquo;ai le temps!)</p>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TefZOdxFSFY" frameborder="0" allowfullscreen> </iframe>
-
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/post/2016-01-31-unravel/" title="Le ravissant Unravel"><img src="/images/banner_unravel.jpg" alt="Le ravissant Unravel"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2016-01-31 00:00:00 &#43;0000 &#43;0000">2016-01-31</time></span>
-        
-        
-    </div>
-    
-	<h1 class="entry-title"><a href="/post/2016-01-31-unravel/" rel="bookmark" title="Le ravissant Unravel" itemprop="url">Le ravissant Unravel</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>Un jeu qui me donne envie de sortir des billets du portefeuille.</p>
-<p>Ce jeu est <strong>beau</strong> et <strong>doux</strong>. Techniquement, on a beaucoup de choses à dire aussi. Mais c&rsquo;est la direction artistique qui est fabuleuse, car le jeu semble homogène de bout en bout.</p>
-<p>J&rsquo;ai hâte de le tester !</p>
-<p><a href="http://www.unravelgame.com">Site officiel</a></p>
-
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/QpnY1G3vt_0" frameborder="0" allowfullscreen> </iframe>
 
 
   </div>

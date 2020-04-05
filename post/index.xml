@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pacôme DANHIEZ</copyright>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.itamago.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SublimeText : convertion automatique tabs-to-spaces</title>
+      <link>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</guid>
+      <description>Un truc qui me gène depuis un moment, ce sont les fichiers avec des tabs plutôt que des espaces.
+SublimeText permet d&amp;rsquo;effectuer une conversion manuelle, fichier par fichier, via le petit menu en bas à droite. Mais rien n&amp;rsquo;est proposé pour effectuer ça de manière automatique.
+J&amp;rsquo;ai trouvé un petit script autorisant de faire ça. Il faut créer un fichier ExpandTabsOnSave.py dans le repertoire Packages/user de SublimeText, contenant le code suivant :</description>
+    </item>
     
     <item>
       <title>Confinement COVID - Semaine 3</title>

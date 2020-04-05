@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://www.itamago.com/abstract-2.jpg" />
 
 
-  <meta property="og:updated_time" content="2020-03-31T00:00:00&#43;00:00"/>
+  <meta property="og:updated_time" content="2020-04-05T00:00:00&#43;00:00"/>
 
 
 
@@ -171,6 +171,45 @@
 
 
 
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" title="SublimeText : convertion automatique tabs-to-spaces"><img src="/images/banner_xcode.jpg" alt="SublimeText : convertion automatique tabs-to-spaces"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2020-04-05 00:00:00 &#43;0000 UTC">2020-04-05</time></span>
+        
+        
+    </div>
+    
+	<h1 class="entry-title"><a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" rel="bookmark" title="SublimeText : convertion automatique tabs-to-spaces" itemprop="url">SublimeText : convertion automatique tabs-to-spaces</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>Un truc qui me gène depuis un moment, ce sont les fichiers avec des tabs plutôt que des espaces.</p>
+<p>SublimeText permet d&rsquo;effectuer une conversion manuelle, fichier par fichier, via le petit menu en bas à droite. Mais rien n&rsquo;est proposé pour effectuer ça de manière automatique.</p>
+<p>J&rsquo;ai trouvé un petit script autorisant de faire ça. Il faut créer un fichier <code>ExpandTabsOnSave.py</code> dans le repertoire Packages/user de SublimeText, contenant le code suivant :</p>
+<pre><code>import sublime, sublime_plugin, os
+
+class ExpandTabsOnSave(sublime_plugin.EventListener):
+  # Run ST's 'expand_tabs' command when saving a file
+  def on_pre_save(self, view):
+    if view.settings().get('expand_tabs_on_save') == 1:
+      view.window().run_command('expand_tabs')
+</code></pre><p>Ensuite, on peut utiliser cette option dans un <code>Project</code> SublimeText :</p>
+<pre><code>&quot;settings&quot;: {
+    &quot;expand_tabs_on_save&quot;: true
+}
+</code></pre><p>ou bien au global dans le fichier de <code>Settings</code> :</p>
+<pre><code>&quot;expand_tabs_on_save&quot;: true
+</code></pre><p>And voilà !</p>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -520,62 +559,6 @@ Jouissif.</p>
 <p>Enfantin.</p>
 <p>Comme je le disais, certain peuvent rester bloquer sur l&rsquo;aspect spartiate de la GUI. Mais n&rsquo;oublions pas les objectifs initiaux : <strong>le debug</strong> et <strong>la perf</strong>.</p>
 <p>Et qu&rsquo;on se rassure, une nouvelle version poindra probablement bientôt le bout de son nez avec un design plus <em>moderne</em>. Espérons qu&rsquo;elle conservera sa faible emprunte et restera aussi simple à utiliser.</p>
-
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-		  <a href="/post/2015-12-24-noel-bd/" title="Qui dit Noël, dit BD !"><img src="/images/banner_bandes-dessinees.jpg" alt="Qui dit Noël, dit BD !"></a>
-      </div>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2015-12-24 00:00:00 &#43;0000 &#43;0000">2015-12-24</time></span>
-        
-        
-    </div>
-    
-	<h1 class="entry-title"><a href="/post/2015-12-24-noel-bd/" rel="bookmark" title="Qui dit Noël, dit BD !" itemprop="url">Qui dit Noël, dit BD !</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>Comme tous les ans, c&rsquo;est le moment de lire des bandes-dessinées pendant les fêtes de fin d&rsquo;année.</p>
-<p>J&rsquo;avais délaissé ma boutique favorite depuis un moment, donc la moisson fut excellente !</p>
-<h2 id="le-tueur-_tomes-11-12-13_">Le Tueur <em>(tomes 11, 12, 13)</em></h2>
-<p>L’indétrônable thriller des fêtes. Toujours aussi bon à lire, une histoire palpitante avec des dessins magnifiques.<br>
-Les auteurs ne cessent de m'étonner car ils conservent un niveau d&rsquo;excellence malgré les années qui passent.</p>
-
-
-<figure class="third">
-	<a href="/images/bd/le-tueur-11.jpg"><img src="/images/bd/le-tueur-11.jpg" alt=""></a>
-	<a href="/images/bd/le-tueur-12.jpg"><img src="/images/bd/le-tueur-12.jpg" alt=""></a>
-	<a href="/images/bd/le-tueur-13.jpg"><img src="/images/bd/le-tueur-13.jpg" alt=""></a>
-</figure>
-
-<h2 id="le-grand-mort-_tome-6_">Le Grand Mort <em>(tome 6)</em></h2>
-<p>Je l&rsquo;attendais depuis un an !</p>
-<p>Pour Noël 2014, j&rsquo;avais offert les cinq premiers tomes à mon père, et je me suis délecté de leur lecture pendant deux après-midi.</p>
-<p>Loisel parvient à nous transporter dans un monde parallèle pendant plusieurs heures.<br>
-J&rsquo;ai hâte de lire ce dernier tome !</p>
-
-
-<figure>
-	<a href="/images/bd/le-grand-mort-tome-6.jpg"><img src="/images/bd/le-grand-mort-tome-6.jpg" alt=""></a>
-</figure>
-
-<p><strong>Petite anecdote</strong> : Loisel a habité Enghien-les-bains <strong>pendant plus de 15 ans</strong>, et je l&rsquo;ai su hier seulement ! Je comprends mieux pourquoi la librairie <em>Impressions</em> avait toujours ses albums en avant-première ;)</p>
-<h2 id="le-cycle-de-cyann-_tome-6_">Le Cycle de Cyann <em>(tome 6)</em></h2>
-<p>Une série dont les épisodes sortent au compte-goutte.<br>
-Ce n&rsquo;est pas une BD mainstream, clairement pour Adultes car Bourgeon en est le créateur, avec des dessins très colorés. J&rsquo;adore toujours autant.</p>
-
-
-<figure>
-	<a href="/images/bd/le-cycle-de-cyann-tome-6.jpg"><img src="/images/bd/le-cycle-de-cyann-tome-6.jpg" alt=""></a>
-</figure>
-
 
   </div>
 </article>

@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.itamago.com/tags/code/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.itamago.com/post/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.itamago.com/tags/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.itamago.com/post/2020-03-31-covid-confinement-week-3/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
@@ -13,22 +33,7 @@
   </url>
   
   <url>
-    <loc>https://www.itamago.com/post/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.itamago.com/tags/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.itamago.com/post/2018-01-14-black-eyed-peas-back-copy/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.itamago.com/tags/code/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
   </url>
   

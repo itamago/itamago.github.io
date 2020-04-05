@@ -28,7 +28,7 @@
 
 
 
-  <meta property="og:updated_time" content="2018-01-14T00:00:00&#43;00:00"/>
+  <meta property="og:updated_time" content="2020-04-05T00:00:00&#43;00:00"/>
 
 
 
@@ -130,6 +130,45 @@
 
 
 
+
+<article class="hentry">
+  <header>
+    
+      <div class="entry-image-index">
+		  <a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" title="SublimeText : convertion automatique tabs-to-spaces"><img src="/images/banner_xcode.jpg" alt="SublimeText : convertion automatique tabs-to-spaces"></a>
+      </div>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2020-04-05 00:00:00 &#43;0000 UTC">2020-04-05</time></span>
+        
+        
+    </div>
+    
+	<h1 class="entry-title"><a href="/post/2020-04-05-sublime-convert-tabs-to-spaces/" rel="bookmark" title="SublimeText : convertion automatique tabs-to-spaces" itemprop="url">SublimeText : convertion automatique tabs-to-spaces</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>Un truc qui me gène depuis un moment, ce sont les fichiers avec des tabs plutôt que des espaces.</p>
+<p>SublimeText permet d&rsquo;effectuer une conversion manuelle, fichier par fichier, via le petit menu en bas à droite. Mais rien n&rsquo;est proposé pour effectuer ça de manière automatique.</p>
+<p>J&rsquo;ai trouvé un petit script autorisant de faire ça. Il faut créer un fichier <code>ExpandTabsOnSave.py</code> dans le repertoire Packages/user de SublimeText, contenant le code suivant :</p>
+<pre><code>import sublime, sublime_plugin, os
+
+class ExpandTabsOnSave(sublime_plugin.EventListener):
+  # Run ST's 'expand_tabs' command when saving a file
+  def on_pre_save(self, view):
+    if view.settings().get('expand_tabs_on_save') == 1:
+      view.window().run_command('expand_tabs')
+</code></pre><p>Ensuite, on peut utiliser cette option dans un <code>Project</code> SublimeText :</p>
+<pre><code>&quot;settings&quot;: {
+    &quot;expand_tabs_on_save&quot;: true
+}
+</code></pre><p>ou bien au global dans le fichier de <code>Settings</code> :</p>
+<pre><code>&quot;expand_tabs_on_save&quot;: true
+</code></pre><p>And voilà !</p>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
