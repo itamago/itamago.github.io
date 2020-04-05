@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Python3 pour macOS</title>
+      <link>https://www.itamago.com/post/2020-04-05-python3-pour-macos/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.itamago.com/post/2020-04-05-python3-pour-macos/</guid>
+      <description>Les différentes manières d&amp;rsquo;installer Python3 sur macOS : The right and wrong way to set Python 3 as default on a Mac
+En résumé, voici ce qu&amp;rsquo;il faut faire.
+$ brew install pyenv $ pyenv install 3.7.7 $ pyenv global 3.7.7 $ pyenv version $ echo -e &#39;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then\n eval &amp;quot;$(pyenv init -)&amp;quot;\nfi&#39; &amp;gt;&amp;gt; ~/.zshrc </description>
+    </item>
+    
+    <item>
       <title>SublimeText : convertion automatique tabs-to-spaces</title>
       <link>https://www.itamago.com/post/2020-04-05-sublime-convert-tabs-to-spaces/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
