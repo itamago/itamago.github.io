@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#184c3d">
+  <meta name="description" content="Le site personnel de Pacôme Danhiez. Articles et ressources sur la programmation, les mathématiques, le sport et la culture.">
+  <title>itamago — Pacôme Danhiez</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="itamago, accueil"><img src="logo.svg" alt="" width="34" height="42"><span>itamago<span class="brand-dot">.</span></span></a>
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="#journal" class="nav-link">Articles</a>
+      <a href="#ressources" class="nav-link">Ressources</a>
+      <a href="#a-propos" class="nav-link">À propos</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" data-open-search aria-label="Rechercher un article"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button>
+      <a class="contact-link" href="mailto:pacome@itamago.com">Contact <span aria-hidden="true">↗</span></a>
+      <button class="icon-button menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navigation mobile" hidden><a href="#journal">Articles</a><a href="#ressources">Ressources</a><a href="#a-propos">À propos</a></nav>
+  <main id="main">
+    <div id="home-view">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> PACÔME DANHIEZ</p>
+          <h1 id="hero-title">Notes et<br>références<br><em>personnelles.</em></h1>
+          <p class="hero-description">Articles et ressources sur la programmation, les mathématiques,<br class="desktop-break"> le sport et d’autres centres d’intérêt.</p>
+          <div class="hero-actions"><a class="button primary" href="#journal">Consulter les articles <span aria-hidden="true">↘</span></a><a class="quiet-link" href="#a-propos">À propos <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-art">
+          <div class="photo-frame"><img class="hero-photo" src="../images/pexels-photo1.jpg" alt="Un carnet ouvert, un café et un ordinateur sur une table en bois" width="1136" height="758"></div>
+        </div>
+      </section>
+      <section id="journal" class="journal wrap" aria-labelledby="journal-title">
+        <div class="section-heading"><div><p class="eyebrow">PUBLICATIONS</p><h2 id="journal-title">Articles<span>.</span></h2></div><p>Une sélection de publications du site.<br>Les archives réunissent l’ensemble des articles.</p></div>
+        <div class="journal-toolbar"><div id="filters" class="filters" role="group" aria-label="Filtrer les articles par thème"></div><span class="article-count" id="article-count" role="status" aria-live="polite"></span></div>
+        <div id="article-grid" class="article-grid"></div>
+        <div class="journal-bottom"><span class="archive-note">Archives · 2015–2020</span><button id="load-more" class="button outline">Consulter les archives <span aria-hidden="true">↓</span></button></div>
+      </section>
+      <section id="resources-teaser" class="resource-section wrap" aria-labelledby="resource-title"><div class="resource-art" aria-hidden="true"><span class="math-symbol">∑</span><div class="math-orbit orbit-one"></div><div class="math-orbit orbit-two"></div><span class="math-formula">∀ ε &gt; 0, ∃ δ &gt; 0</span><span class="math-coordinate">48.8566° N · 2.3522° E</span></div><div class="resource-copy"><p class="eyebrow">MATHÉMATIQUES</p><h2 id="resource-title">Résumés<br><em>de cours.</em></h2><p>Résumés de cours de mathématiques de niveau préparatoire : algèbre, analyse et topologie. Les documents sont disponibles au format PDF.</p><a class="button primary" href="#ressources">Consulter les cours <span aria-hidden="true">↗</span></a></div></section>
+      <section id="a-propos" class="about-section wrap" aria-labelledby="about-title"><div class="about-intro"><img src="../images/pacome.jpg" alt="Pacôme Danhiez" class="portrait" width="88" height="88" loading="lazy"><div><p class="eyebrow">À PROPOS</p><h2 id="about-title">Pacôme Danhiez<span>.</span></h2></div></div><div class="about-body"><p>Développeur à Paris, je publie ici des notes sur la programmation, les mathématiques, le sport et les nouvelles technologies. Ce site rassemble mes projets, mes références et mes centres d’intérêt.</p><a class="text-link" href="mailto:pacome@itamago.com">Me contacter par e-mail <span aria-hidden="true">↗</span></a></div></section>
+    </div>
+    <section id="reader-view" class="reader wrap" hidden aria-label="Lecture d’un article"></section>
+    <section id="resources-view" class="resources-page wrap" hidden aria-labelledby="library-title"><a class="back-link" href="#journal">← Retour aux articles</a><p class="eyebrow">RESSOURCES</p><h1 id="library-title">Cours de <em>mathématiques.</em></h1><p class="library-intro">Résumés de cours de niveau préparatoire, au format PDF.<br>Sélectionnez un chapitre pour consulter le document.</p><div class="library-toolbar"><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><input id="resource-search" type="search" placeholder="Rechercher un cours…" aria-label="Rechercher un cours"></label><a class="button primary" href="../assets/cours_math/cours_math.zip" download>Télécharger tous les cours <span aria-hidden="true">↓</span></a></div><p id="resource-count" class="muted" role="status" aria-live="polite"></p><div id="resource-list" class="resource-list"></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-top"><a class="brand" href="#"><img src="logo.svg" alt="" width="30" height="38"><span>itamago.</span></a><p>Le site personnel de Pacôme Danhiez.</p><a href="#main" class="top-link">Retour en haut ↑</a></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Pacôme Danhiez</span><span>Articles et ressources.</span><a href="../index.xml">Flux RSS <span aria-hidden="true">↗</span></a></div></footer>
+  <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="search-dialog-header"><h2 id="search-title">Rechercher</h2><button class="icon-button" data-close-search aria-label="Fermer la recherche">✕</button></div><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><input id="site-search" type="search" placeholder="Titre, sujet ou mot-clé" autocomplete="off" aria-label="Rechercher dans tous les articles"></label><p id="search-count" class="muted" role="status" aria-live="polite">Tous les articles</p><div id="search-results" class="search-results"></div><p class="search-hint"><kbd>Échap</kbd> pour fermer</p></dialog>
+</body>
+</html>
